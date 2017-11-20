@@ -8,7 +8,7 @@
     <string name="main_card_button_1">ACTION 1</string>
     <string name="main_card_button_2">ACTION 2</string>
     <string name="main_card_details">Details here</string>
-    <string name="title_pick_card_activity">Pick a card</string>
+    <string name="title_pick_card_activity"></string>
 
 
     <!-- TODO: Remove or change this placeholder text -->
