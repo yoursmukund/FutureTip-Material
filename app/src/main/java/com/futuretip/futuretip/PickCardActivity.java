@@ -9,6 +9,7 @@ import android.graphics.BitmapFactory;
 import android.os.Bundle;
 import android.os.CountDownTimer;
 import android.os.PersistableBundle;
+import android.provider.Settings;
 import android.support.annotation.Nullable;
 import android.support.design.widget.BaseTransientBottomBar;
 import android.transition.Fade;
@@ -21,6 +22,11 @@ import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
+
 import java.util.Date;
 import java.util.Random;
 
@@ -37,6 +43,8 @@ public class PickCardActivity extends AppCompatActivity{
     private Animation thinkDeeply_animation;
     private Animation card_interpretation_animation;
     private int[] photos;
+    private AdView mAdView;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -48,6 +56,14 @@ public class PickCardActivity extends AppCompatActivity{
         if (getSupportActionBar() != null) {
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         }
+
+        MobileAds.initialize(this, "ca-app-pub-3404907343922680~3002468520");
+        mAdView = findViewById(R.id.adView);
+        AdRequest request = new AdRequest.Builder()
+                .addTestDevice("58FF272077DF1D58C04A7CD224819BE9")
+                .build();
+        mAdView.loadAd(request);
+
 
         card = (ImageView) findViewById(R.id.img_card);
         viewRoot = (ViewGroup) findViewById(R.id.activity_pick_card_root);
