@@ -3,15 +3,12 @@ package com.futuretip.futuretip;
 import android.animation.AnimatorSet;
 import android.animation.ObjectAnimator;
 import android.content.Context;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
 import android.os.CountDownTimer;
-import android.os.PersistableBundle;
-import android.provider.Settings;
-import android.support.annotation.Nullable;
-import android.support.design.widget.BaseTransientBottomBar;
 import android.transition.Fade;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
@@ -26,7 +23,9 @@ import android.widget.Toast;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.MobileAds;
+import com.google.android.gms.ads.InterstitialAd;
 
+import java.util.Calendar;
 import java.util.Date;
 import java.util.Random;
 
@@ -44,6 +43,8 @@ public class PickCardActivity extends AppCompatActivity{
     private Animation card_interpretation_animation;
     private int[] photos;
     private AdView mAdView;
+    private InterstitialAd mInterstitialAd;
+    private String readingType;
 
 
     @Override
@@ -57,12 +58,24 @@ public class PickCardActivity extends AppCompatActivity{
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         }
 
+        //Check reading type
+        Intent intent = getIntent();
+        readingType = intent.getStringExtra("readingType");
+
+        //Load banner ad
         MobileAds.initialize(this, "ca-app-pub-3404907343922680~3002468520");
         mAdView = findViewById(R.id.adView);
         AdRequest request = new AdRequest.Builder()
                 .addTestDevice("58FF272077DF1D58C04A7CD224819BE9")
                 .build();
         mAdView.loadAd(request);
+
+
+        //Load interstitial ad
+        mInterstitialAd = new InterstitialAd(this);
+        mInterstitialAd.setAdUnitId("ca-app-pub-3940256099942544/1033173712");
+        mInterstitialAd.loadAd(new AdRequest.Builder().build());
+
 
 
         card = (ImageView) findViewById(R.id.img_card);
@@ -100,37 +113,45 @@ public class PickCardActivity extends AppCompatActivity{
 
         getWindow().setNavigationBarColor(getResources().getColor(R.color.colorPrimary));
 
-        //Checking if user has already drawn the card, if so, show that same card until next day
+
         SharedPreferences prefs = getApplicationContext().getSharedPreferences("prefs", Context.MODE_PRIVATE);
-        long previousTime = prefs.getLong("time",0);
-        long currentTime = new Date().getTime();
+        String hasPicked = prefs.getString("picked_type_"+readingType, "");
+        Long midnight = prefs.getLong("midnight_"+readingType, 0);
 
-        // 30*60*1000 - 30 min, each with 60 sec, each with 1000 millisec
-        if (currentTime - previousTime > 1440*60*1000){
+        //Calculating time left till midnight
+        long timeLeftTillMidnight = (midnight-System.currentTimeMillis());
 
-            //Enable picking card
-            initView();
+        //Resetting activity picked indicator the next day
+        if(hasPicked.equalsIgnoreCase(readingType) && timeLeftTillMidnight<0){
+            SharedPreferences.Editor editor = prefs.edit();
+            editor.putString("picked_type_"+readingType, "");
+            editor.putLong("midnight_"+readingType, 0);
+            editor.apply();
+        }
 
-        } else {
+        //Checking if user has already drawn the card, if so, show that same card until next day
+        if (timeLeftTillMidnight>0 && hasPicked.equalsIgnoreCase(readingType)){
 
             //Show picked card
-            Toast.makeText(getApplicationContext(), "Please come back tomorrow for new reading", Toast.LENGTH_LONG).show();
+            Toast.makeText(getApplicationContext(), "Please come back tomorrow for a new reading", Toast.LENGTH_LONG).show();
             initViewWithCardPicked();
 
             //Disable it and start a new CountdownTimer; this is needed in order for
             //it to to become enabled if you're still in the app and the time ran out
-            new CountDownTimer(1440*60*1000 - (currentTime - previousTime), 1000) {
-                public void onTick(long millisUntilFinished) {
-
-                }
+            new CountDownTimer(timeLeftTillMidnight, 1000) {
+                public void onTick(long millisUntilFinished) {}
 
                 public void onFinish() {
 
                     //enable picking card
                     initView();
-
                 }
             }.start();
+        } else {
+
+            //Enable picking card
+            initView();
+
         }
 
     }
@@ -146,7 +167,7 @@ public class PickCardActivity extends AppCompatActivity{
 
         //Retrieve previously chosen card
         SharedPreferences prefs = getApplicationContext().getSharedPreferences("prefs", Context.MODE_PRIVATE);
-        int k = prefs.getInt("selected_card_index",0);
+        int k = prefs.getInt("selected_card_index_"+readingType,0);
         card.setImageResource(photos[k]);
 
         //The text floats down on the card which is already been chosen
@@ -154,13 +175,8 @@ public class PickCardActivity extends AppCompatActivity{
         thinkDeeply.startAnimation(thinkDeeply_animation);
         card.setClickable(false);
 
-        text_card_interpretation_heading.setText("What it means for your career");
-        text_card_interpretation.setText("gsjdgsjldgaksdhlkas ashdkasjdjkasgdlkagsdklasg4" +
-                "dlkgaskdlgaskjdgklasjgdkjOISA4" +
-                "YOISAOIDHSADOIHSAODIHASOIDHAOSHDOASHDOASHDIAHSDIOAHSDlagsdkjaGSDKJLGASJDGALJKSDGKALJSDGKAGSDKJAD");
-        card_interpretation_animation = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.anim_prediction_text_up);
-        text_card_interpretation_heading.startAnimation(card_interpretation_animation);
-        text_card_interpretation.startAnimation(card_interpretation_animation);
+        //Showing the reading interpretation
+        setReadingText(0, readingType);
 
     }
 
@@ -173,7 +189,7 @@ public class PickCardActivity extends AppCompatActivity{
             ObjectAnimator scaleY = ObjectAnimator.ofFloat(card, "scaleY", 1.0f, 1.1f);
 
             final AnimatorSet scaleAnim = new AnimatorSet();
-            scaleAnim.setDuration(1000);
+            scaleAnim.setDuration(1500);
             scaleAnim.play(scaleX).with(scaleY);
 
             scaleX.setRepeatCount(ObjectAnimator.INFINITE);
@@ -199,26 +215,42 @@ public class PickCardActivity extends AppCompatActivity{
                     scaleAnim.end();
                     card.setClickable(false);
 
-                    //Saving the picked card and showing it by default for next 24 hrs
+                    //Saving the picked card and showing it by default till midnight
                     SharedPreferences prefs = getApplicationContext().getSharedPreferences("prefs", Context.MODE_PRIVATE);
                     long currentTime = new Date().getTime();
                     SharedPreferences.Editor editor = prefs.edit();
-                    editor.putLong("time", currentTime);
-                    editor.putInt("selected_card_index", k);
+                    Calendar c = Calendar.getInstance();
+                    c.add(Calendar.DAY_OF_MONTH, 1);
+                    c.set(Calendar.HOUR_OF_DAY, 0);
+                    c.set(Calendar.MINUTE, 0);
+                    c.set(Calendar.SECOND, 0);
+                    c.set(Calendar.MILLISECOND, 0);
+                    editor.putString("picked_type_"+readingType, readingType);
+                    editor.putLong("midnight_"+readingType, c.getTimeInMillis());
+                    editor.putInt("selected_card_index_"+readingType, k);
                     editor.apply();
 
-                    text_card_interpretation_heading.setText("What it means for your career");
-                    text_card_interpretation.setText("gsjdgsjldgaksdhlkas ashdkasjdjkasgdlkagsdklasg4" +
-                            "dlkgaskdlgaskjdgklasjgdkjOISA4" +
-                            "YOISAOIDHSADOIHSAODIHASOIDHAOSHDOASHDOASHDIAHSDIOAHSDlagsdkjaGSDKJLGASJDGALJKSDGKALJSDGKAGSDKJAD");
-                    card_interpretation_animation = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.anim_prediction_text_up);
-                    text_card_interpretation_heading.startAnimation(card_interpretation_animation);
-                    text_card_interpretation.startAnimation(card_interpretation_animation);
+                    //Showing the reading interpretation
+                    setReadingText(0, readingType);
 
                 }
             });
 
         }
+
+    public void setReadingText(int cardIndex, String readingType){
+        text_card_interpretation_heading.setText("What it means for "+readingType);
+        text_card_interpretation.setText(
+                "Lorem ipsum dolor sit amet, " +
+                "consectetur adipiscing elit. " +
+                "Proin dictum iaculis erat quis dapibus. " +
+                "Sed ultricies nunc maximus lobortis sagittis. " +
+                "Integer dapibus lacus lectus, " +
+                "in tincidunt libero tincidunt ac.");
+        card_interpretation_animation = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.anim_prediction_text_up);
+        text_card_interpretation_heading.startAnimation(card_interpretation_animation);
+        text_card_interpretation.startAnimation(card_interpretation_animation);
+    }
 
     @Override
     protected void onResume() {
@@ -248,6 +280,13 @@ public class PickCardActivity extends AppCompatActivity{
     }
 
 
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        if (mInterstitialAd.isLoaded()) {
+            mInterstitialAd.show();
+        }
+    }
 
 }
 

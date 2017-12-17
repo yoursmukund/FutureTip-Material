@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#4285f4</color>
-    <color name="colorPrimaryDark">#3367d6</color>
+    <color name="colorPrimary">#343c43</color>
+    <color name="colorPrimaryDark">#2a3237</color>
     <color name="colorAccent">#FFC400</color>
 
     <color name="white">#FFFFFF</color>
@@ -10,6 +10,11 @@
     <color name="gray_light">#CCCCCC</color>
     <color name="gray_very_light">#e0e0e0</color>
     <color name="gray_deep">#666666</color>
+    <color name="super_light_slate_gray">#616870</color>
+    <color name="light_slate_gray">#3b4046</color>
+    <color name="slate_gray">#343c43</color>
+    <color name="dark_slate_gray">#2a3237</color>
+    <color name="neon_blue">#00aaff</color>
     <color name="black_overlay">#66000000</color>
     <color name="activity_background">#EEEEEE</color>
     <color name="transparent">#00000000</color>

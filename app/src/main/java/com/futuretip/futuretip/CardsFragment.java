@@ -41,10 +41,10 @@ public class CardsFragment extends Fragment implements View.OnClickListener, Vie
         card_main_3 = (CardView) nestedScrollView.findViewById(R.id.card_main_3);
         card_main_4 = (CardView) nestedScrollView.findViewById(R.id.card_main_4);
 
-        Glide.with(getContext()).load(R.drawable.material_design_1).fitCenter().into(img_card_main_1);
-        Glide.with(getContext()).load(R.drawable.material_design_1).fitCenter().into(img_card_main_2);
-        Glide.with(getContext()).load(R.drawable.material_design_1).fitCenter().into(img_card_main_3);
-        Glide.with(getContext()).load(R.drawable.material_design_1).fitCenter().into(img_card_main_4);
+        Glide.with(getContext()).load(R.drawable.career).fitCenter().into(img_card_main_1);
+        Glide.with(getContext()).load(R.drawable.love).fitCenter().into(img_card_main_2);
+        Glide.with(getContext()).load(R.drawable.health).fitCenter().into(img_card_main_3);
+        Glide.with(getContext()).load(R.drawable.family).fitCenter().into(img_card_main_4);
 
         return nestedScrollView;
     }
@@ -65,21 +65,26 @@ public class CardsFragment extends Fragment implements View.OnClickListener, Vie
 
     }
 
+
     public void onClick(View view) {
+        Intent intent = new Intent(getActivity().getApplicationContext(), PickCardActivity.class);
         switch (view.getId()) {
 
             case R.id.card_main_1:
-                Intent intent = new Intent(getActivity().getApplicationContext(), PickCardActivity.class);
+                intent.putExtra("readingType", "career");
                 startActivity(intent, ActivityOptions.makeSceneTransitionAnimation(getActivity()).toBundle());
                 break;
             case R.id.card_main_2:
-
+                intent.putExtra("readingType", "love");
+                startActivity(intent, ActivityOptions.makeSceneTransitionAnimation(getActivity()).toBundle());
                 break;
             case R.id.card_main_3:
-
+                intent.putExtra("readingType", "health");
+                startActivity(intent, ActivityOptions.makeSceneTransitionAnimation(getActivity()).toBundle());
                 break;
             case R.id.card_main_4:
-
+                intent.putExtra("readingType", "family");
+                startActivity(intent, ActivityOptions.makeSceneTransitionAnimation(getActivity()).toBundle());
                 break;
         }
     }
