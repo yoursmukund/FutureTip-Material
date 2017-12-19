@@ -41,7 +41,8 @@
                 android:layout_centerHorizontal="true"
                 android:layout_weight="1"
                 ads:adSize="BANNER"
-                ads:adUnitId="ca-app-pub-3940256099942544/5224354917"></com.google.android.gms.ads.AdView>
+                ads:adUnitId="ca-app-pub-3940256099942544/5224354917">
+            </com.google.android.gms.ads.AdView>
 
             <TextView
                 android:id="@+id/text_think_deeply"
@@ -53,7 +54,7 @@
                 android:layout_marginTop="20dp"
                 android:gravity="center"
                 android:padding="20dp"
-                android:text="Focus on your question and pick the card"
+                android:text="@string/focus_on_question"
                 android:textAlignment="center"
                 android:textColor="@color/white"
                 android:textSize="25dp" />

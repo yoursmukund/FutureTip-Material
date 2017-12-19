@@ -15,31 +15,32 @@ import android.view.ViewGroup;
 import android.view.animation.AccelerateInterpolator;
 import android.view.animation.DecelerateInterpolator;
 import android.widget.ImageView;
+
 import com.bumptech.glide.Glide;
 
 
-public class CardsFragment extends Fragment implements View.OnClickListener, View.OnTouchListener {
+public class CardsFragmentExpert extends Fragment implements View.OnClickListener, View.OnTouchListener {
 
     private ImageView img_card_main_1;
     private ImageView img_card_main_2;
     private ImageView img_card_main_3;
     private ImageView img_card_main_4;
-    private CardView card_main_1;
-    private CardView card_main_2;
-    private CardView card_main_3;
-    private CardView card_main_4;
+    private CardView card_expert_day;
+    private CardView card_expert_week;
+    private CardView card_expert_month;
+    private CardView card_expert_year;
 
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        NestedScrollView nestedScrollView = (NestedScrollView) inflater.inflate(R.layout.fragment_cards, container, false);
+        NestedScrollView nestedScrollView = (NestedScrollView) inflater.inflate(R.layout.fragment_cards_expert, container, false);
 
         img_card_main_1 = (ImageView) nestedScrollView.findViewById(R.id.img_card_main_1);
         img_card_main_2 = (ImageView) nestedScrollView.findViewById(R.id.img_card_main_2);
         img_card_main_3 = (ImageView) nestedScrollView.findViewById(R.id.img_card_main_3);
         img_card_main_4 = (ImageView) nestedScrollView.findViewById(R.id.img_card_main_4);
-        card_main_1 = (CardView) nestedScrollView.findViewById(R.id.card_main_1);
-        card_main_2 = (CardView) nestedScrollView.findViewById(R.id.card_main_2);
-        card_main_3 = (CardView) nestedScrollView.findViewById(R.id.card_main_3);
-        card_main_4 = (CardView) nestedScrollView.findViewById(R.id.card_main_4);
+        card_expert_day = (CardView) nestedScrollView.findViewById(R.id.card_expert_day);
+        card_expert_week = (CardView) nestedScrollView.findViewById(R.id.card_expert_week);
+        card_expert_month = (CardView) nestedScrollView.findViewById(R.id.card_expert_month);
+        card_expert_year = (CardView) nestedScrollView.findViewById(R.id.card_expert_year);
 
         Glide.with(getContext()).load(R.drawable.career).fitCenter().into(img_card_main_1);
         Glide.with(getContext()).load(R.drawable.love).fitCenter().into(img_card_main_2);
@@ -53,15 +54,15 @@ public class CardsFragment extends Fragment implements View.OnClickListener, Vie
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
 
-        card_main_1.setOnClickListener(this);
-        card_main_2.setOnClickListener(this);
-        card_main_3.setOnClickListener(this);
-        card_main_4.setOnClickListener(this);
+        card_expert_day.setOnClickListener(this);
+        card_expert_week.setOnClickListener(this);
+        card_expert_month.setOnClickListener(this);
+        card_expert_year.setOnClickListener(this);
 
-        card_main_1.setOnTouchListener(this);
-        card_main_2.setOnTouchListener(this);
-        card_main_3.setOnTouchListener(this);
-        card_main_4.setOnTouchListener(this);
+        card_expert_day.setOnTouchListener(this);
+        card_expert_week.setOnTouchListener(this);
+        card_expert_month.setOnTouchListener(this);
+        card_expert_year.setOnTouchListener(this);
 
     }
 
@@ -70,19 +71,19 @@ public class CardsFragment extends Fragment implements View.OnClickListener, Vie
         Intent intent = new Intent(getActivity().getApplicationContext(), PickCardActivity.class);
         switch (view.getId()) {
 
-            case R.id.card_main_1:
+            case R.id.card_expert_day:
                 intent.putExtra("readingType", "career");
                 startActivity(intent, ActivityOptions.makeSceneTransitionAnimation(getActivity()).toBundle());
                 break;
-            case R.id.card_main_2:
+            case R.id.card_expert_week:
                 intent.putExtra("readingType", "love");
                 startActivity(intent, ActivityOptions.makeSceneTransitionAnimation(getActivity()).toBundle());
                 break;
-            case R.id.card_main_3:
+            case R.id.card_expert_month:
                 intent.putExtra("readingType", "health");
                 startActivity(intent, ActivityOptions.makeSceneTransitionAnimation(getActivity()).toBundle());
                 break;
-            case R.id.card_main_4:
+            case R.id.card_expert_year:
                 intent.putExtra("readingType", "family");
                 startActivity(intent, ActivityOptions.makeSceneTransitionAnimation(getActivity()).toBundle());
                 break;

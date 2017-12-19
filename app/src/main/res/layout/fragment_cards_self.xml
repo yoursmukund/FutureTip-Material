@@ -11,13 +11,13 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <include layout="@layout/card_main_1" />
+        <include layout="@layout/card_self_career" />
 
-        <include layout="@layout/card_main_2" />
+        <include layout="@layout/card_self_love" />
 
-        <include layout="@layout/card_main_3" />
+        <include layout="@layout/card_self_health" />
 
-        <include layout="@layout/card_main_4" />
+        <include layout="@layout/card_self_family" />
 
     </LinearLayout>
 </android.support.v4.widget.NestedScrollView>

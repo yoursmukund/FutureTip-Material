@@ -15,6 +15,7 @@
     <color name="slate_gray">#343c43</color>
     <color name="dark_slate_gray">#2a3237</color>
     <color name="neon_blue">#00aaff</color>
+    <color name="sharp_yellow">#ffff57</color>
     <color name="black_overlay">#66000000</color>
     <color name="activity_background">#EEEEEE</color>
     <color name="transparent">#00000000</color>

@@ -14,8 +14,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.animation.AccelerateDecelerateInterpolator;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
+import android.view.animation.TranslateAnimation;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -24,6 +26,7 @@ import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.MobileAds;
 import com.google.android.gms.ads.InterstitialAd;
+import com.google.android.gms.ads.formats.NativeAd;
 
 import java.util.Calendar;
 import java.util.Date;
@@ -32,6 +35,7 @@ import java.util.Random;
 public class PickCardActivity extends AppCompatActivity{
 
     private ImageView card;
+    private ImageView cardFront;
     private boolean sizeChanged;
     private int savedWidth;
     private int savedHeight;
@@ -171,6 +175,7 @@ public class PickCardActivity extends AppCompatActivity{
         card.setImageResource(photos[k]);
 
         //The text floats down on the card which is already been chosen
+        thinkDeeply.setText(R.string.come_back_tomorrow);
         thinkDeeply_animation = AnimationUtils.loadAnimation(this, R.anim.anim_prediction_text_down);
         thinkDeeply.startAnimation(thinkDeeply_animation);
         card.setClickable(false);
@@ -200,11 +205,13 @@ public class PickCardActivity extends AppCompatActivity{
             scaleAnim.start();
 
             //Think deeply text floats down
+            thinkDeeply.setText(R.string.focus_on_question);
             thinkDeeply_animation = AnimationUtils.loadAnimation(this, R.anim.anim_prediction_text_down);
             thinkDeeply.startAnimation(thinkDeeply_animation);
+            cardFront = findViewById(R.id.img_card);
 
             //Card reveals on click and prediction text slides up
-            findViewById(R.id.img_card).setOnClickListener(new View.OnClickListener() {
+            cardFront.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
 

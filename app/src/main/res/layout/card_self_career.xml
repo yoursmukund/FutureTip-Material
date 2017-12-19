@@ -25,7 +25,7 @@
             android:layout_marginStart="@dimen/card_title_margin"
             android:layout_marginEnd="@dimen/card_title_margin"
             android:layout_marginTop="@dimen/card_title_margin"
-            android:text="@string/main_card_title"
+            android:text="@string/career_card_title"
             android:textColor="@color/neon_blue" />
 
         <TextView
@@ -47,7 +47,7 @@
             android:layout_marginEnd="@dimen/card_subtitle_margin"
             android:layout_marginTop="@dimen/card_button_margin"
             android:text="@string/main_card_details"
-            android:textColor="@color/gray_deep" />
+            android:textColor="@color/sharp_yellow" />
 
         <ImageView
             android:id="@+id/img_card_main_1"

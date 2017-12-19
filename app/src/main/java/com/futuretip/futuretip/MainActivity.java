@@ -1,7 +1,6 @@
 package com.futuretip.futuretip;
 
 import android.content.Intent;
-import android.provider.Settings;
 import android.support.annotation.NonNull;
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
@@ -12,20 +11,15 @@ import android.transition.Fade;
 import android.widget.Toast;
 
 import com.firebase.ui.auth.AuthUI;
-import com.google.android.gms.ads.AdRequest;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.ChildEventListener;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
-import com.google.android.gms.ads.MobileAds;
-import com.google.android.gms.ads.AdView;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-
-import static java.security.AccessController.getContext;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -150,8 +144,8 @@ public class MainActivity extends AppCompatActivity {
         mTabLayout.addTab(mTabLayout.newTab().setText(titles.get(1)));
 
         List<Fragment> fragments = new ArrayList<>();
-        fragments.add(new CardsFragment());
-        fragments.add(new CardsFragment());
+        fragments.add(new CardsFragmentSelf());
+        fragments.add(new CardsFragmentExpert());
 
         mViewPager.setOffscreenPageLimit(2);
 

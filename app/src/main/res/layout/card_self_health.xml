@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:card_view="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/card_main_2"
+    android:id="@+id/card_main_3"
     android:layout_width="match_parent"
     android:layout_height="170dp"
     android:layout_marginBottom="@dimen/main_card_margin_vertical"
@@ -17,39 +17,40 @@
         android:layout_height="wrap_content">
 
         <TextView
-            android:id="@+id/tv_card_main_2_title"
+            android:id="@+id/tv_card_main_3_title"
             style="@style/TextAppearance.AppCompat.Large"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/card_title_margin"
             android:layout_marginEnd="@dimen/card_title_margin"
             android:layout_marginTop="@dimen/card_title_margin"
-            android:text="@string/main_card_title"
-            android:textColor="@color/black" />
+            android:text="@string/health_card_title"
+            android:textColor="@color/neon_blue" />
 
         <TextView
-            android:id="@+id/tv_card_main_2_subtitle"
+            android:id="@+id/tv_card_main_3_subtitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/tv_card_main_2_title"
+            android:layout_below="@id/tv_card_main_3_title"
             android:layout_marginStart="@dimen/card_subtitle_margin"
             android:layout_marginEnd="@dimen/card_subtitle_margin"
             android:layout_marginTop="@dimen/card_button_margin"
+            android:textColor="@color/white"
             android:text="@string/main_card_subtitle" />
 
         <TextView
-            android:id="@+id/tv_card_main_2_details"
+            android:id="@+id/tv_card_main_3_details"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/tv_card_main_2_subtitle"
+            android:layout_below="@id/tv_card_main_3_subtitle"
             android:layout_marginStart="@dimen/card_subtitle_margin"
             android:layout_marginEnd="@dimen/card_subtitle_margin"
             android:layout_marginTop="@dimen/card_button_margin"
             android:text="@string/main_card_details"
-            android:textColor="@color/gray_deep" />
+            android:textColor="@color/white" />
 
         <ImageView
-            android:id="@+id/img_card_main_2"
+            android:id="@+id/img_card_main_3"
             android:layout_width="96dp"
             android:layout_height="match_parent"
             android:layout_alignParentEnd="true"
