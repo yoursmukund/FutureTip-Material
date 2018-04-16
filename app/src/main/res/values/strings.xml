@@ -3,8 +3,8 @@
     <string name="app_designed_by">Designed by Mukund</string>
     <string name="tab_title_main_1">Self Inspiration</string>
     <string name="tab_title_main_2">Expert Corner</string>
-    <string name="focus_on_question">Focus on your question and pick the card</string>
-    <string name="come_back_tomorrow">Read, follow and come back tomorrow for new reading</string>
+    <string name="focus_on_question">Relax, focus and pick the card below</string>
+    <string name="come_back_tomorrow">Please come back tomorrow for a new reading</string>
     <string name="love_card_title">Love Reading</string>
     <string name="career_card_title">Career Reading</string>
     <string name="health_card_title">Health Reading</string>
@@ -13,7 +13,699 @@
     <string name="main_card_button_1">ACTION 1</string>
     <string name="main_card_button_2">ACTION 2</string>
     <string name="main_card_details">Details here</string>
-    <string name="title_pick_card_activity"></string>
+    <string name="destiny_text">Destiny - Forces around you</string>
+
+
+    <string name="career_destiny_death">Big change or end of a chapter, new beginning.</string>
+    <string name="career_karma_death">A radical shift in your environment can bring up many mixed feelings. It is time to put them aside and go with the flow. The environment is encouraging you to change your own conditions. Look around and get rid of unwanted relationships and emotions and start afresh.</string>
+    <string name="love_destiny_death">Big change or end of a chapter, new beginning. </string>
+    <string name="love_karma_death">A radical shift in your environment can bring up many mixed feelings. It is time to put them aside and go with the flow. The environment is encouraging you to change your own conditions. Look around and get rid of unwanted relationships and emotions and start afresh.</string>
+    <string name="health_destiny_death">Big change or end of a chapter, new beginning.</string>
+    <string name="health_karma_death">A radical shift in your environment can bring up many mixed feelings. It is time to put them aside and go with the flow. The environment is encouraging you to change your own conditions. Look around and get rid of unwanted clutter and start afresh.</string>
+    <string name="family_destiny_death">Big change or end of a chapter, new beginning.</string>
+    <string name="family_karma_death">A radical shift in your environment can bring up many mixed feelings. It is time to put them aside and go with the flow. The environment is encouraging you to change your own conditions.</string>
+
+    <string name="career_destiny_eight_cups">Leaving temptation/passion in a quest for something more. Needs emotional strength </string>
+    <string name="career_karma_eight_cups">Gain emotional strength from focusing on what you\'re going to achieve rather than what you\'re leaving behind. Don\'t succumb to the bad times as the sun rises every morning, and it gives you a chance to take away the darkness</string>
+    <string name="love_destiny_eight_cups">Leaving temptation/passion in a quest for something more. Needs emotional strength </string>
+    <string name="love_karma_eight_cups">Don\'t lose hope. Hope is important for you to achieve what you\'re looking for. Have some loved one to support you emotionally through these times</string>
+    <string name="health_destiny_eight_cups">Leaving temptation/passion in a quest for something more. Needs emotional strength</string>
+    <string name="health_karma_eight_cups">Don\'t lose hope. Hope is important for you to achieve what you\'re looking for. Keep good health and focus on not letting yourself down too much. Start/keep up health regimes. They\'ll benefit in due time</string>
+    <string name="family_destiny_eight_cups">Leaving temptation/passion in a quest for something more. Needs emotional strength</string>
+    <string name="family_karma_eight_cups"> Don\'t lose hope. Hope is important for you to achieve what you\'re looking for. Have some loved one to support you emotionally through these times</string>
+
+    <string name="career_destiny_eight_pents">Hard work, Descipline, Consistency, Greed, Feeling of effort going in vain and less money for a lot of work.</string>
+    <string name="career_karma_eight_pents"> Find time outside work to get away and relax. Life dominated by greed to succeed has its side effects. Spend more time in finding out what you love and trying to find out if you can make money out of it. This can bring a good balance to your perception of work and money.</string>
+    <string name="love_destiny_eight_pents">Hard work, Descipline, Consistency, Greed, Feeling of effort going in vain.</string>
+    <string name="love_karma_eight_pents">Love is like a monument. You need to work hard to bring it to shape. Be consistent in your efforts</string>
+    <string name="health_destiny_eight_pents">Hard work, Descipline, Consistency, Greed, Feeling of effort going in vain.</string>
+    <string name="health_karma_eight_pents">Life is like a monument. You need to work hard to bring it to shape. Be consistent in your efforts</string>
+    <string name="family_destiny_eight_pents">Hard work, Descipline, Consistency, Greed, Feeling of effort going in vain.</string>
+    <string name="family_karma_eight_pents">Family is like a monument. You need to work hard to bring it to shape. Be consistent in your efforts</string>
+
+    <string name="career_destiny_eight_swords">Surrounded by problems, need the intelligence, guile and strength to move forward. </string>
+    <string name="career_karma_eight_swords">We do feel trapped and isolated sometimes. The only way out is through determination and not through abandonement of the problems. Pray for strength to solve the problems, not for the problems to go away.</string>
+    <string name="love_destiny_eight_swords">Surrounded by problems, need the intelligence, guile and strength to move forward. </string>
+    <string name="love_karma_eight_swords">We do feel trapped and isolated sometimes. The only way out is through determination and not through abandonement of the problems. Pray for strength to solve the problems, not for the problems to go away.</string>
+    <string name="health_destiny_eight_swords">Surrounded by problems, need the intelligence, guile and strength to move forward. </string>
+    <string name="health_karma_eight_swords">We do feel trapped and isolated sometimes. The only way out is through determination and not   through abandonement of the problems. </string>
+    <string name="family_destiny_eight_swords">Surrounded by problems, need the intelligence, guile and strength to move forward.</string>
+    <string name="family_karma_eight_swords">We do feel trapped and isolated sometimes. The only way out is through determination and not   through abandonement of the problems. </string>
+
+    <string name="career_destiny_eight_wands">Exciting time to be experimenting. Situations are leaving you "no time" for yourself. Events are happening fast around you. </string>
+    <string name="career_karma_eight_wands">Build intelligence and strength to deal with unexpected events in this fast paced time. Be excited and go where the flow takes you, but exercise caution</string>
+    <string name="love_destiny_eight_wands">Exciting time for love. Emotions will move quicker than ever, so keep control.</string>
+    <string name="love_karma_eight_wands">Build intelligence and strength to deal with unexpected events in this fast paced time. Be excited and go where the flow takes you, but exercise caution with rushing feelings</string>
+    <string name="health_destiny_eight_wands">Feel motivated to stay healthy. A good time to start a regime as the body will respond quickly.</string>
+    <string name="health_karma_eight_wands"> Build intelligence and strength to deal with unexpected health issues in this fast paced time. Be excited and go where the flow takes you, but maintian caution</string>
+    <string name="family_destiny_eight_wands">Fast paced life can result in family and close relations being ignored. Situations are favorable for quick catchups.</string>
+    <string name="family_karma_eight_wands">Catch up with friends and family and make quick resolves. Be cautious for misunderstandings, don\'t rush with people\'s feelings or yours.</string>
+
+    <string name="career_destiny_five_cups">Crying over losses and not realizing the passions still in possession. Lesson over taking emotions for granted.</string>
+    <string name="career_karma_five_cups">Be hopeful and grateful. Opportunities will come but you have to learn your lessons. Don\'t waste time worrying about the past and move forward, learning from the mistakes and being grateful for what you have.</string>
+    <string name="love_destiny_five_cups">Crying over losses and not realizing the passions still in possession. Lesson over taking emotions for granted</string>
+    <string name="love_karma_five_cups"> Be hopeful and grateful. Understand that loving and respecting oneself is the most important thing. Know that ups and downs are part of life. This too shall pass</string>
+    <string name="health_destiny_five_cups">Crying over losses and not realizing the passions still in possession. Lesson over taking emotions for granted.</string>
+    <string name="health_karma_five_cups">Don\'t let the situations get the best of you. Disappointments are part of life and are essential for a drive to be better. Don\'t waste time on lost opportunities and move on so you can make the future better</string>
+    <string name="family_destiny_five_cups">Crying over losses and not realizing the passions still in possession. Lesson over taking emotions for granted.</string>
+    <string name="family_karma_five_cups">Be hopeful and grateful. Understand that loving and respecting oneself is the most important thing. Know that ups and downs are part of life. This too shall pass.</string>
+
+    <string name="career_destiny_five_pents">A disappointment gives teaching. Health and money pose problems.</string>
+    <string name="career_karma_five_pents">Be cautious of overspending or risky investments. Find refuge in family and togetherness instead of seeking monetary satisfaction.</string>
+    <string name="love_destiny_five_pents">A disappointment gives teaching. Health and money pose problems.</string>
+    <string name="love_karma_five_pents">Seek comfort from all the problems in togetherness. Focus on relationships/friendships as they can act as a refuge from the problems</string>
+    <string name="health_destiny_five_pents">A disappointment gives teaching. Health and money issues arise or continue.</string>
+    <string name="health_karma_five_pents">Seek comfort in loved ones. Keep caring people close.</string>
+    <string name="family_destiny_five_pents">A disappointment gives teaching. Health and money issues arise or continue.</string>
+    <string name="family_karma_five_pents">Family is the ultimate savior. Keep close with loved ones and seek their help to heal. Find comfort in togetherness.</string>
+
+    <string name="career_destiny_five_swords">A teaching on overconfidence </string>
+    <string name="career_karma_five_swords">Don\'t take your life\'s matters for granted. Go deeper. Don\'t be always sure as you may be missing what\'s important.</string>
+    <string name="love_destiny_five_swords">A teaching on overconfidence</string>
+    <string name="love_karma_five_swords">Don\'t take your life\'s matters for granted. Go deeper. Don\'t be always sure as you may be missing what\'s important.</string>
+    <string name="health_destiny_five_swords">A teaching on overconfidence </string>
+    <string name="health_karma_five_swords">Don\'t take your life\'s matters for granted. Go deeper. Don\'t be always sure as you may be missing what\'s important.</string>
+    <string name="family_destiny_five_swords">A teaching on overconfidence</string>
+    <string name="family_karma_five_swords">Don\'t take your life\'s matters for granted. Go deeper. Don\'t be always sure as you may be missing what\'s important.</string>
+
+    <string name="career_destiny_five_wands">Mock fight that\'ll teach a lesson, quest of achievement between people of equal footing</string>
+    <string name="career_karma_five_wands">Competition is tough. Don\'t underestimate anybody. It is time to rise and focus only on yourself in order to do good.</string>
+    <string name="love_destiny_five_wands">Mock fight that\'ll teach a lesson, quest of achievement between people of equal footing</string>
+    <string name="love_karma_five_wands">Money matters, underappreciation of your partner/loved one can turn happy relationships sour. Work towards meeting in the middle and dousing the inequality and misunderstandings.</string>
+    <string name="health_destiny_five_wands">Mock fight that\'ll teach a lesson, quest of achievement between people of equal footing</string>
+    <string name="health_karma_five_wands">Money matters, bad health and working against your own desires can turn happy times sour. Stay vigilant of health concerns and avoid unwanted confrontations.</string>
+    <string name="family_destiny_five_wands">Mock fight that\'ll teach a lesson, quest of achievement between people of equal footing </string>
+    <string name="family_karma_five_wands">Money matters, underappreciation of your family can turn happy relationships sour. Work towards meeting in the middle and dousing the inequality and difference of opinion.</string>
+
+    <string name="career_destiny_four_cups">Career stagnation and saturation, lack of motivation, dissatisfaction with people and job</string>
+    <string name="career_karma_four_cups">Realize the gifts you have which you often ignore, try to learn new things or change to a stream you love to bring back the excitement.</string>
+    <string name="love_destiny_four_cups">Dissatisfaction/saturation with love, lack of passion and happiness, a state of not being given what you asked for</string>
+    <string name="love_karma_four_cups"> Realize your blessings, make your partner/yourself happy by changing your attitude, Compromise a little and be grateful.</string>
+    <string name="health_destiny_four_cups">Dissatisfaction with health, lack of motivation, unwillingness to make a change</string>
+    <string name="health_karma_four_cups">Realize your blessings, be grateful to be alive, things won\'t change unless you change them so get up</string>
+    <string name="family_destiny_four_cups">Dissatisfaction with family, lack of passion and happiness, a state of not being given what you asked for</string>
+    <string name="family_karma_four_cups">Realize your blessings, make your family/yourself happy by changing your attitude, Compromise a little and be grateful.</string>
+
+    <string name="career_destiny_four_pents">Order, structure, control, power, Holding on too tight to money, frugality turning into stinginess</string>
+    <string name="career_karma_four_pents">Have a good control over your finances. Learn to be generous with money.</string>
+    <string name="love_destiny_four_pents">Order, structure, control, power</string>
+    <string name="love_karma_four_pents"> Relationship can become a struggle for control and importance. Don\'t let it happen. Practise generosity. Give space to loved ones and let them exercise their control too.</string>
+    <string name="health_destiny_four_pents">Order, structure, control, power, Holding on too tight to money, frugality turning into stinginess.</string>
+    <string name="health_karma_four_pents">Practise generosity and relinquishing control. This will ease up a lot of mental and physical pressure in life.</string>
+    <string name="family_destiny_four_pents">Order, structure, control, power</string>
+    <string name="family_karma_four_pents">Family situation can become a struggle for control and importance. Don\'t let it happen. Practise generosity. Give space to loved ones and let them exercise their control too.</string>
+
+    <string name="career_destiny_four_swords">Reflection upon what truly matters, stepping away from the actions and relaxing, refocusing</string>
+    <string name="career_karma_four_swords">Be cautious of procrastination and wilful delay in actions. Take your time to step away to a calmer place but with a conviction to come back stronger and more prepared</string>
+    <string name="love_destiny_four_swords">Reflection upon what truly matters, stepping away from the actions and relaxing, refocusing</string>
+    <string name="love_karma_four_swords">Ideal time to step away from the work and responsibilities for brief period and focusing on loved ones. Be aware and keep this period short and contolled and don\'t move out of the action completely</string>
+    <string name="health_destiny_four_swords">Reflection upon what truly matters, stepping away from the actions and relaxing, refocusing</string>
+    <string name="health_karma_four_swords">Ideal time to step away from the work and responsibilities for brief period to focus on health. Try meditation and relaxation methods which prepare you to come back stronger and more focused</string>
+    <string name="family_destiny_four_swords">Reflection upon what truly matters, stepping away from the actions and relaxing, refocusing</string>
+    <string name="family_karma_four_swords">Ideal time to step away from the work and responsibilities for brief period and to focus on family and friends. They matter a lot and some of the people are not properly recognized for their efforts they make for you. Give them some quality time, get some inspiration from them and use it to build your strength and focus back.</string>
+
+    <string name="career_destiny_four_wands">Minor celebration, success but with further work to be done.</string>
+    <string name="career_karma_four_wands">Remember the task is not yet finished. Don\'t leave it behind, swept away by any distraction. It is your time to focus and also enjoy in moderation at the same time.</string>
+    <string name="love_destiny_four_wands">Minor celebration, success but with further work to be done.</string>
+    <string name="love_karma_four_wands"> Feel happy about the small progress. It is important to look around and realize that there are things left to be done, so keep the intent alive.</string>
+    <string name="health_destiny_four_wands">Minor celebration, success but with further work to be done.</string>
+    <string name="health_karma_four_wands"> Feel happy about the small progress in health through hard work. It is important to look around and realize that there are things left to be done, so keep the motivation alive.</string>
+    <string name="family_destiny_four_wands">Minor celebration, success but with further work to be done.</string>
+    <string name="family_karma_four_wands"> Feel happy about the small progress in family matters. It is important to look around and realize that there are things left to be done, so keep the intent alive.</string>
+
+    <string name="career_destiny_judgement">Revisiting things and making peace, cleansing of sin, moving forward with an outlook on the past, carrying it forward, healing, final decision which the the querent doesn\'t want to face</string>
+    <string name="career_karma_judgement"> Letting go and looking ahead are the greatest tool in your arsenal. Don\'t worry, everything will be clear as the destiny is opening the doors slowly.</string>
+    <string name="love_destiny_judgement">Revisiting things and making peace, cleansing of sin, moving forward with an outlook on the past, carrying it forward, healing, final decision which the the querent doesn\'t want to face</string>
+    <string name="love_karma_judgement"> Letting go and looking ahead are the greatest tool in your arsenal. Don\'t worry, everything will be clear as the destiny is opening the doors slowly.</string>
+    <string name="health_destiny_judgement">Revisiting things and making peace, cleansing of sin, moving forward with an outlook on the past, carrying it forward, healing, final decision which the the querent doesn\'t want to face</string>
+    <string name="health_karma_judgement">Letting go and looking ahead are the greatest tool in your arsenal. Don\'t worry, everything will be clear as the destiny is opening the doors slowly.</string>
+    <string name="family_destiny_judgement">Revisiting things and making peace, cleansing of sin, moving forward with an outlook on the past, carrying it forward, healing, final decision which the the querent doesn\'t want to face </string>
+    <string name="family_karma_judgement"> Letting go and looking ahead are the greatest tool in your arsenal. Don\'t worry, everything will be clear as the destiny is opening the doors slowly.</string>
+
+    <string name="career_destiny_justice">Objectivity, balance, making tough decisions, careful thought before action. </string>
+    <string name="career_karma_justice">Deal with reason and not with emotions. Weigh all the options with a unbiased eye. </string>
+    <string name="love_destiny_justice">Objectivity, balance, making tough decisions, careful thought before action. </string>
+    <string name="love_karma_justice">Deal with reason and not with emotions. There are tough observations ahead and you need to be balanced and practical.</string>
+    <string name="health_destiny_justice">Objectivity, balance, making tough decisions, careful thought before action. </string>
+    <string name="health_karma_justice">Deal with reason and not with emotions. There are tough observations ahead and you need to be balanced and practical.</string>
+    <string name="family_destiny_justice">Objectivity, balance, making tough decisions, careful thought before action. </string>
+    <string name="family_karma_justice"> Deal with reason and not with emotions. There are tough observations ahead and you need to be balanced and practical.</string>
+
+    <string name="career_destiny_king_pents">Not a man of action, proud, confident, hard worker, inspires hard work and cautiousness, charming, depth of experience.</string>
+    <string name="career_karma_king_pents">The combination of hard work and empathy can bring you great success. Practice those traits more for better results.</string>
+    <string name="love_destiny_king_pents">vNot a man of action, proud, confident, hard worker, inspires hard work and cautiousness, charming, depth of experience.</string>
+    <string name="love_karma_king_pents">The combination of hard work and empathy can bring you great success. Practice those traits more for better results.</string>
+    <string name="health_destiny_king_pents">Not a man of action, proud, confident, hard worker, inspires hard work and cautiousness, charming, depth of experience.</string>
+    <string name="health_karma_king_pents">The combination of hard work and empathy can bring you great success. Practice those traits more for better results.</string>
+    <string name="family_destiny_king_pents">Not a man of action, proud, confident, hard worker, inspires hard work and cautiousness, charming, depth of experience.</string>
+    <string name="family_karma_king_pents">The combination of hard work and empathy can bring you great success. Practice those traits more for better results.</string>
+
+    <string name="career_destiny_king_cups">Struggles but still holds his ground, ideal, loving, supporting father spirit, emotional stability, understandability </string>
+    <string name="career_karma_king_cups">The combination of hard work and empathy can bring you great success. Practice those traits more for better results.</string>
+    <string name="love_destiny_king_cups">Struggles but still holds his ground, ideal, loving, supporting father spirit, emotional stability, understandability </string>
+    <string name="love_karma_king_cups"> The combination of perseverance and empathy can bring you great success in love. Practice those traits more for better results.</string>
+    <string name="health_destiny_king_cups">Struggles but still holds his ground, ideal, loving, supporting father spirit, emotional stability, understandability </string>
+    <string name="health_karma_king_cups">The combination of perseverance and empathy can bring you great success. Practice those traits more for better results with well being.</string>
+    <string name="family_destiny_king_cups">Struggles but still holds his ground, ideal, loving, supporting father spirit, emotional stability, understandability </string>
+    <string name="family_karma_king_cups">The combination of perseverance and empathy can bring you great success in family life. Practice those traits more for better results.</string>
+
+    <string name="career_destiny_king_swords">Judge, fair, man of ideas, cold, distant, harsh, cruel. Survival of the fittest</string>
+    <string name="career_karma_king_swords"> If you work hard and are truthful to yourself and others, the environment will spare you, else it will bring you to justice. Just remember to stick with the truth.</string>
+    <string name="love_destiny_king_swords">Judge, fair, man of ideas, cold, distant, harsh, cruel. Survival of the fittest</string>
+    <string name="love_karma_king_swords">  If you are truthful to yourself and others, the environment will spare you, else it will bring you to justice. Just remember to stick with the truth.</string>
+    <string name="health_destiny_king_swords">Judge, fair, man of ideas, cold, distant, harsh, cruel. Survival of the fittest</string>
+    <string name="health_karma_king_swords"> If you work hard and are truthful to yourself and others, the environment will spare you, else it will bring you to justice. Just remember to stick with the truth.</string>
+    <string name="family_destiny_king_swords">Judge, fair, man of ideas, cold, distant, harsh, cruel.</string>
+    <string name="family_karma_king_swords"> If you are truthful to yourself and others, the environment will spare you, else it will bring you to justice. Just remember to stick with the truth.</string>
+
+    <string name="career_destiny_king_wands">Noble man, start of something new, teacher role, charismatic.</string>
+    <string name="career_karma_king_wands">Time to solidify the ideas from within and embark on a new journey. Time for a new beginning. You need to keep the doubts away now and move forward, the first step is the hardest</string>
+    <string name="love_destiny_king_wands">Noble man, start of something new, teacher role, charismatic.</string>
+    <string name="love_karma_king_wands">Time to solidify the ideas from within and embark on a new journey. Time for a new beginning. You need to keep the doubts away now and move forward, the first step is the hardest</string>
+    <string name="health_destiny_king_wands">Noble man, start of something new, teacher role, charismatic.</string>
+    <string name="health_karma_king_wands">Time to solidify the ideas from within and embark on a new journey. Time for a new beginning. You need to keep the doubts away now and move forward, the first step is the hardest</string>
+    <string name="family_destiny_king_wands">Noble man, start of something new, teacher role, charismatic.</string>
+    <string name="family_karma_king_wands">Time to solidify the ideas from within and embark on a new journey. Time for a new beginning. You need to keep the doubts away now and move forward, the first step is the hardest</string>
+
+    <string name="career_destiny_knight_cups">Young spirit with unique talent and generosity, lost in ambitions, escapism, addiction</string>
+    <string name="career_karma_knight_cups"> A victim of your own feelings, you\'re mystifying yourself, trying to create confusion instead of living in reality. You cannot escape the call of reality and over-sensitivity will not help.</string>
+    <string name="love_destiny_knight_cups">Young spirit with unique talent and generosity, lost in ambitions, escapism, addiction</string>
+    <string name="love_karma_knight_cups"> A victim of your own feelings, you\'re mystifying yourself, trying to create confusion instead of living in reality. You cannot escape the call of reality and over-sensitivity will not help.</string>
+    <string name="health_destiny_knight_cups">Young spirit with unique talent and generosity, lost in ambitions, escapism, addiction</string>
+    <string name="health_karma_knight_cups"> A victim of your own feelings, you\'re mystifying yourself, trying to create confusion instead of living in reality. You cannot escape the call of reality and over-sensitivity will not help.</string>
+    <string name="family_destiny_knight_cups">Young spirit with unique talent and generosity, lost in ambitions, escapism, addiction</string>
+    <string name="family_karma_knight_cups"> A victim of your own feelings, you\'re mystifying yourself, trying to create confusion instead of living in reality. You cannot escape the call of reality and over-sensitivity will not help.</string>
+
+    <string name="career_destiny_knight_pents">Slow, cautious, protective, less inclined to take action hastily, pragmatic youth, thought out plan, materialistic, serious</string>
+    <string name="career_karma_knight_pents">Take your time and be patient and wise with your career choices but also know that life is what happens when we\'re busy making plans. Avoid overthinking.</string>
+    <string name="love_destiny_knight_pents">Slow, cautious, protective, less inclined to take action hastily, pragmatic youth, thought out plan, materialistic, serious</string>
+    <string name="love_karma_knight_pents">Avoid over-analyzing and overthinking. Not everybody who makes all the plans and thinks of every possible angle, is successful in love. Practice letting go a little.</string>
+    <string name="health_destiny_knight_pents">Slow, cautious, protective, less inclined to take action hastily, pragmatic youth, thought out plan, materialistic, serious</string>
+    <string name="health_karma_knight_pents">Avoid over-analyzing and overthinking as it can lead to loss of focus and time. Not everybody who makes all the plans and thinks of every possible angle, is happy. Practice letting go and not taking every action too seriously.</string>
+    <string name="family_destiny_knight_pents">Slow, cautious, protective, less inclined to take action hastily, pragmatic youth, thought out plan, materialistic, serious</string>
+    <string name="family_karma_knight_pents">Avoid over-analyzing and overthinking. Not everybody who makes all the plans and thinks of every possible angle can guarantee a perfect family life. Practice letting go of things you don\'t have control over.</string>
+
+    <string name="career_destiny_knight_swords">Conflicts, arrogance, haste, power, teen spirit too smart for it\'s own good, free speech</string>
+    <string name="career_karma_knight_swords">Calm down and realize that not everything needs to be solved today. Don\'t make uninformed or ignorant decisions as they may land you in trouble.</string>
+    <string name="love_destiny_knight_swords">Conflicts, arrogance, haste, power, teen spirit too smart for it\'s own good, free speech</string>
+    <string name="love_karma_knight_swords">Childish arguments can erupt if you are not cautious. Don\'t harbor grudges. Straightforwardness is not always a solution.</string>
+    <string name="health_destiny_knight_swords">Conflicts, arrogance, haste, power, teen spirit too smart for it\'s own good, free speech</string>
+    <string name="health_karma_knight_swords">Calm down and realize that not everything needs to be solved today. Don\'t make uninformed or ignorant decisions as they may land you in trouble.</string>
+    <string name="family_destiny_knight_swords">Conflicts, arrogance, haste, power, teen spirit too smart for it\'s own good, free speech</string>
+    <string name="family_karma_knight_swords">Childish arguments can erupt if you are not cautious. Don\'t harbor grudges. Straightforwardness is not always a solution.</string>
+
+    <string name="career_destiny_knight_wands">Rapid changes, center of attention, headstrong man.</string>
+    <string name="career_karma_knight_wands">Be undeterred by the environment, stand your ground and have faith in your ideas</string>
+    <string name="love_destiny_knight_wands">Rapid changes, center of attention, headstrong man</string>
+    <string name="love_karma_knight_wands">Be undeterred by the environment, stand your ground and have faith in your ideas of love. </string>
+    <string name="health_destiny_knight_wands">Rapid changes, center of attention, headstrong man</string>
+    <string name="health_karma_knight_wands">Be undeterred by the environment, stand your ground and have faith in your efforts. Don\'t let anything adversely affect your well being.</string>
+    <string name="family_destiny_knight_wands">Rapid changes, center of attention, headstrong man</string>
+    <string name="family_karma_knight_wands">Be undeterred by the environment, stand your ground and have faith in your ideas and your loved ones.</string>
+
+    <string name="career_destiny_magician">Time for new ideas to take shape. Inspiration can come from anywhere.</string>
+    <string name="career_karma_magician"> Try to find new ways of doing things and take lessons from the past. If there is time for new ideas to take shape, it is now.</string>
+    <string name="love_destiny_magician">Exchange of new ideas and inspiration between lovers</string>
+    <string name="love_karma_magician"> Look for the company of people who are inspiring and have lots of ideas and dreams. This exchange can be a good basis of a new relationship or a revival of an old one.</string>
+    <string name="health_destiny_magician">Time for new awareness towards health, renewed interest and necessity to be better both mentally and physically</string>
+    <string name="health_karma_magician"> Seek out ideas that encourage. Don\'t waste much time weighing the options. It\'s time to rise up and start something new.</string>
+    <string name="family_destiny_magician">New companionship, renewed interest in family affairs, start of important events</string>
+    <string name="family_karma_magician">Think of new ways to make relationships work. New approaches can bring a totally new flavor to home and family life. Things are starting afresh, new perspectives can challenge you, so be open minded.</string>
+
+    <string name="career_destiny_nine_cups">Victory, completion, satisfaction, creative energy, recognition</string>
+    <string name="career_karma_nine_cups">The universe is creating a moment of celebration.  A time to look back and feel good about where you are at the moment and to enjoy it. Be cautious of overindulgence in this merry land universe has created. Also be aware not to be too proud of your accomplishments.</string>
+    <string name="love_destiny_nine_cups">Earthly pleasures, satisfaction in relationship, blissful company, wishes coming true</string>
+    <string name="love_karma_nine_cups">It is a time to love and be loved back. A time to look back and feel good about where you are at the moment and to enjoy it. Be cautious of overindulgence in this merry land universe has created.</string>
+    <string name="health_destiny_nine_cups">Happiness, completion, satisfaction, richness, enthusiasm</string>
+    <string name="health_karma_nine_cups">The universe is creating a moment of celebration.  A time to look back and feel good about where you are at the moment and to enjoy it. Be cautious of overindulgence in this merry land universe has created. Also be aware not to be too proud of your accomplishments.</string>
+    <string name="family_destiny_nine_cups">Happiness, completion, satisfaction, richness, enthusiasm</string>
+    <string name="family_karma_nine_cups">The universe is creating a moment of celebration.  A time to look back and feel good about where you are at the moment and to enjoy it with the family. Time to share and live in the moment and realizing the gift of company.</string>
+
+    <string name="career_destiny_nine_pents">Luck, money, small indulgence as a token or a gift for hard work and achievement of goals</string>
+    <string name="career_karma_nine_pents">Be glad to have the luck and the pleasures that you have. Appreciate every bit of hard work you put in and the people who support you. Give back small tokens of appreciation to yourself and others in this small journey of life. </string>
+    <string name="love_destiny_nine_pents">Good fortune, indulgence, money</string>
+    <string name="love_karma_nine_pents">Be glad to have the luck and the pleasures that you have. Appreciate every bit of hard work you put in and the people who support you. Give back small tokens of appreciation to yourself and others in this small journey of life.</string>
+    <string name="health_destiny_nine_pents">Good health, Luck, money, small indulgence as a token or a gift for hard work and achievement of goals</string>
+    <string name="health_karma_nine_pents"> Be glad to have the health and the pleasures that you have. Appreciate every bit of hard work you put in and the people who support you. Give back small tokens of appreciation to yourself and others in this small journey of life.</string>
+    <string name="family_destiny_nine_pents">Good fortune, indulgence, money</string>
+    <string name="family_karma_nine_pents">Be glad to have the luck and the pleasures that you have. Appreciate every bit of hard work you put in and the people who support you. Give back small tokens of appreciation to yourself and others in this small journey of life. </string>
+
+    <string name="career_destiny_nine_swords">Fears, despair, anxiety, worry about career and mistakes made </string>
+    <string name="career_karma_nine_swords">This is a reminder to wake up. The negativity and depression in overanalysis of your past can lead to harmful consequences that stretch out to workplace and other avenues of life. Out of the darkest nights, comes the brightest of mornings. Have hope.</string>
+    <string name="love_destiny_nine_swords">Fears, despair, anxiety, guilt, being left alone</string>
+    <string name="love_karma_nine_swords">This is a reminder to wake up. The negativity and depression in overanalysis of your past can lead to harmful consequences that stretch out to your loved one\'s life. Out of the darkest nights, comes the brightest of mornings. Have hope for solution, don\'t dwell on the problems too long.</string>
+    <string name="health_destiny_nine_swords">Fears, despair, anxiety, depression, self loathing</string>
+    <string name="health_karma_nine_swords">This is a reminder to wake up. The negativity and depression in overanalysis of your past can lead to unhealthy mental and physical consequences. Have hope for solution, don\'t dwell on the problems too long.</string>
+    <string name="family_destiny_nine_swords">Fears, despair, anxiety, reminder to wake up</string>
+    <string name="family_karma_nine_swords">This is a reminder to wake up. The negativity and depression in overanalysis of your past can lead to harmful consequences that stretch out to your loved one\'s life. Out of the darkest nights, comes the brightest of mornings. Have hope for solution, don\'t dwell on the problems too long.</string>
+
+    <string name="career_destiny_nine_wands">Delays, waiting, vigilance.</string>
+    <string name="career_karma_nine_wands">Patience is especially needed at this moment. Give the environment some time to loosen the deadlocks by itself. Practice detatchment from outcome.</string>
+    <string name="love_destiny_nine_wands">Delays, waiting, vigilance.</string>
+    <string name="love_karma_nine_wands">Patience is especially needed at this moment. Give the environment some time to loosen the deadlocks by itself. Practice detatchment from outcome.</string>
+    <string name="health_destiny_nine_wands">Delays, waiting, vigilance.</string>
+    <string name="health_karma_nine_wands">Patience is especially needed at this moment. Give the environment some time to loosen the deadlocks by itself. Practice detatchment from outcome.</string>
+    <string name="family_destiny_nine_wands">Delays, waiting, vigilance.</string>
+    <string name="family_karma_nine_wands"> Patience is especially needed at this moment. Give the environment some time to loosen the deadlocks by itself. Practice detatchment from outcome.</string>
+
+    <string name="career_destiny_one_cups">New love becons</string>
+    <string name="career_karma_one_cups">The universe is signalling towards a new love, a renewed interest in everyday things. It needs you to manifest positive energy towards everyone who you work with. Appreciate someone sincerely and be grateful for what you\'re doing. </string>
+    <string name="love_destiny_one_cups">New love becons. Emotions guiding the way more than reason</string>
+    <string name="love_karma_one_cups">The universe is waiting for you to open your eyes and see that you need to see the life from a different, fresh perspective. Take a look around and be grateful for what you have. Renew your interest in love and spread affection to those who are underappreciated.</string>
+    <string name="health_destiny_one_cups">New love becons. Emotions guiding the way more than reason</string>
+    <string name="health_karma_one_cups">The universe requires you to look at the benefits of your effort. Nothing is achieved without hard work and constant nourishment of love towards that work. Time to manifest that nourishment.</string>
+    <string name="family_destiny_one_cups">New love becons. Emotions guiding the way more than reason</string>
+    <string name="family_karma_one_cups"> The universe wants you to sincerely appreciate and find something to be thankful for in the oddest of places. A great time to call up those who you don\'t usually and re-establish the bonds. Find more positives than negatives.</string>
+
+    <string name="career_destiny_one_pents">New health, luck and prosperity, solid gains</string>
+    <string name="career_karma_one_pents">The universe allows improvements in all aspects of your existence. Take the opportunity and open your eyes to fruitful ventures and don\'t shy away from taking risk.</string>
+    <string name="love_destiny_one_pents">New health, luck and prosperity, solid gains.</string>
+    <string name="love_karma_one_pents">The universe allows improvements in all aspects of your existence. Take the opportunity and open your eyes to this new luck and be grateful and invest it on well being.</string>
+    <string name="health_destiny_one_pents">New health, luck and prosperity, solid gains</string>
+    <string name="health_karma_one_pents"> The universe allows improvements in all aspects of your existence including health. Take the opportunity and open your eyes to this new luck and be grateful and invest it on well being.</string>
+    <string name="family_destiny_one_pents">New health, luck and prosperity, solid gains.</string>
+    <string name="family_karma_one_pents">The universe allows improvements in all aspects of you and your loved one\'s existence. Take the opportunity and open your eyes to this new luck and be grateful and invest it on well being.</string>459104
+
+    <string name="career_destiny_one_swords">Inception of a challenge. Good or bad surprises on the way</string>
+    <string name="career_karma_one_swords"> Be open minded and expectant of new things starting up around you. Welcome new challenges and overcome them with confidence. There is nothing to fear if we take everything as an experience.</string>
+    <string name="love_destiny_one_swords">Inception of a challenge. Good or bad surprises on the way</string>
+    <string name="love_karma_one_swords">Welcome new challenges in relationship because if we see the bigger picture, overcoming challenges is the only thing that defines an individual and his/her relationship with the loved ones.</string>
+    <string name="health_destiny_one_swords">Inception of a challenge. Good or bad surprises on the way</string>
+    <string name="health_karma_one_swords">Be open minded and expectant of new things starting up around you. Welcome new challenges and overcome them with confidence. There is nothing to fear if we take everything as an experience.</string>
+    <string name="family_destiny_one_swords">Inception of a challenge. Good or bad surprises on the way</string>
+    <string name="family_karma_one_swords"> Be open minded and expectant of new things starting up around you. Welcome new challenges and overcome them with confidence. There is nothing to fear if we take everything as an experience.</string>
+
+    <string name="career_destiny_one_wands">Inception of a passion, new journey. </string>
+    <string name="career_karma_one_wands">Your destiny and desire want you to find something you\'re passionate about. The inclination is there, the atmosphere is there, the karma is upto you. So go ahead and find that passion and set plans into motion. </string>
+    <string name="love_destiny_one_wands">Inception of a passion, new journey</string>
+    <string name="love_karma_one_wands"> Your destiny is inclining towards sparking of new passion, renewed interest in love. No atmosphere or situation is complete without your effort. Come up with new energy, acknowledge what the universe wants set plans in motion.</string>
+    <string name="health_destiny_one_wands">Inception of a passion, new journey</string>
+    <string name="health_karma_one_wands">The universe is signalling a new start. It needs your support. Bring a new desire to renew your health and life. Find something you\'re passionate about. Be more inclined and you\'ll see the flow of nature is guiding you to start anew.</string>
+    <string name="family_destiny_one_wands">Inception of a passion, new journey</string>
+    <string name="family_karma_one_wands">The universe is signalling a new start. It needs your support. Bring a new desire to renew your relationships. Be more inclined and you\'ll see the flow of nature is guiding you to start anew.</string>
+
+    <string name="career_destiny_page_cups">Fresh emotions, creativity, childlike, innocent kindness and empathy. </string>
+    <string name="career_karma_page_cups"> Seek the unknown with happiness and generosity. New ideas and ways to improve upon your current state are right around the corner, go find them. Make a start.</string>
+    <string name="love_destiny_page_cups">Fresh emotions, creativity, childlike, innocent kindness and empathy. </string>
+    <string name="love_karma_page_cups"> Renewed enthusiasm and love can help you discover new ways in love life. Don\'t forget to have fun no matter what</string>
+    <string name="health_destiny_page_cups">Fresh emotions, creativity, childlike, innocent kindness and empathy</string>
+    <string name="health_karma_page_cups">Approach your health with fun ways to improve it and you\'ll make much progress. Don\'t get stuck in a rut and the environment will be brimming with hope and sense of discovery.</string>
+    <string name="family_destiny_page_cups">Fresh emotions, creativity, childlike, innocent kindness and empathy</string>
+    <string name="family_karma_page_cups">Renewed enthusiasm and empathy towards family and friends is required. Don\'t forget to have fun no matter what.</string>
+
+    <string name="career_destiny_page_pents">Opportunity in land/money, Serious instincts relating to money and future</string>
+    <string name="career_karma_page_pents">It is a good time to plan for future. Be receptive of the current opportunities, trends in investment and be inclined towards finding new ways to earn more through hard work.</string>
+    <string name="love_destiny_page_pents">Good opportunities with money, plans for future</string>
+    <string name="love_karma_page_pents"> Include your loved ones in your thoughts and discussions about the future. Seek opportunities to earn more through mutual dedication and a common goal.</string>
+    <string name="health_destiny_page_pents">Good health, plans for future</string>
+    <string name="health_karma_page_pents">Include your loved ones in your thoughts and discussions about the future. Seek opportunities to earn more through mutual dedication and a common goal.</string>
+    <string name="family_destiny_page_pents">Good opportunities with money, plans for future</string>
+    <string name="family_karma_page_pents"> Include your loved ones in your thoughts and discussions about the future. Seek opportunities to earn more through mutual dedication and a common goal.</string>
+
+    <string name="career_destiny_page_swords">Curiosity, alertness, exploring</string>
+    <string name="career_karma_page_swords">Perception is the key to analysing and succeeding in work environments but it doesn\'t protect you from making wrong judgement. Stay curious of new oppportunities and wary of mood swings of disinterest and overthinking</string>
+    <string name="love_destiny_page_swords">Overthinking, mood-swings, immaturity</string>
+    <string name="love_karma_page_swords">Being perceptive in relationship can help understand the needs of the loved ones better but it doesnt stop you from getting the wrong ideas. Be careful that your immature decisions don\'t affect others.</string>
+    <string name="health_destiny_page_swords">Activity, careful observation and alertness </string>
+    <string name="health_karma_page_swords"> Be alert and vigilant of your health. Now is the right time to observe.</string>
+    <string name="family_destiny_page_swords">Overthinking, mood-swings, immaturity</string>
+    <string name="family_karma_page_swords">Being perceptive in relationship can help understand the needs of the loved ones better but it doesnt stop you from getting the wrong ideas. Be careful that your immature decisions don\'t affect others.</string>
+
+    <string name="career_destiny_page_wands">Travel, passion, career move, entering, willingness, energy, curiosity to explore new things</string>
+    <string name="career_karma_page_wands">Time to take risky steps and bold moves to help your career. Right energy and good mix of attitude can help pivot you to the right direction. Time to start following the heart.</string>
+    <string name="love_destiny_page_wands">Travel, passion, career move, entering, willingness, energy, curiosity to explore new things. </string>
+    <string name="love_karma_page_wands">Matters of heart announce boldly and it is the right time to listen to them. Untamed feelings can leave you vulnerable for later damage, so be cautious while letting the heart make all the decisions.</string>
+    <string name="health_destiny_page_wands">Travel, passion, career move, entering, willingness, energy, curiosity to explore new things. </string>
+    <string name="health_karma_page_wands">Be ready and unafraid to make important decisions and bold moves when it comes to your or family health.</string>
+    <string name="family_destiny_page_wands">Travel, passion, career move, entering, willingness, energy, curiosity to explore new things.</string>
+    <string name="family_karma_page_wands"> Be ready and unafraid to make important decisions and bold moves when it comes to your or family. Feel energetic and resourceful as you can contribute a lot to the affairs of the family.</string>
+
+    <string name="career_destiny_queen_cups">Quiet, spiritual, emotional support, moodiness, depression, self reflection, caring</string>
+    <string name="career_karma_queen_cups">You\'re caring but expect a lot in return and when you don\'t get it, all the moodiness and depression shows up. This repeats in a cycle. Realize that universe is not always bidirectional and not all the things you do have to have emotions attached to them. Be more practical and grow thick skin as it is important to skip over disappointments and be afloat no matter what.</string>
+    <string name="love_destiny_queen_cups">Quiet, spiritual, emotional support, moodiness, depression, self reflection, caring</string>
+    <string name="love_karma_queen_cups">You\'re caring but expect a lot in return and when you don\'t get it, all the moodiness and depression shows up. This repeats in a cycle. Realize that universe is not always bidirectional and not all the things you do have to have emotions attached to them. Be more practical and grow thick skin as it is important to skip over disappointments and be afloat no matter what.</string>
+    <string name="health_destiny_queen_cups">Quiet, spiritual, emotional support, moodiness, depression, self reflection, caring</string>
+    <string name="health_karma_queen_cups">You\'re caring but expect a lot in return and when you don\'t get it, all the moodiness and depression shows up. This repeats in a cycle. Realize that universe is not always bidirectional and not all the things you do have to have emotions attached to them. Be more practical and grow thick skin as it is important to skip over disappointments and be afloat no matter what.</string>
+    <string name="family_destiny_queen_cups">Quiet, spiritual, emotional support, moodiness, depression, self reflection, caring</string>
+    <string name="family_karma_queen_cups">You\'re caring but expect a lot in return and when you don\'t get it, all the moodiness and depression shows up. This repeats in a cycle. Realize that universe is not always bidirectional and not all the things you do have to have emotions attached to them. Be more practical and grow thick skin as it is important to skip over disappointments and be afloat no matter what.</string>
+
+    <string name="career_destiny_queen_pents">Excels in mundane life, thankful for her earthy possessions, modest success, care, hardworking, nature loving, traditional</string>
+    <string name="career_karma_queen_pents">Opportunity to create a warm and homely environment at workplace. You need to create better balance in your life. You have the potential to do it and the time is now.</string>
+    <string name="love_destiny_queen_pents">Excels in mundane life, thankful for her earthy possessions, modest success, care, hardworking, nature loving, traditional</string>
+    <string name="love_karma_queen_pents">Opportunity to create a warm and homely environment for your loved one. You need to create better balance in your life and treat your partner as a priority. You have the potential and a natural desire to do it and the time is now.</string>
+    <string name="health_destiny_queen_pents">Excels in mundane life, thankful for her earthy possessions, modest success, care, hardworking, nature loving, traditional</string>
+    <string name="health_karma_queen_pents">A homely, comfortable environment goes a long way to ensure your well being. Start by prioritizing your life\'s matters and start giving more time to yourself and your loved ones. This will ensure greater satisfaction and health.</string>
+    <string name="family_destiny_queen_pents">Excels in mundane life, thankful for her earthy possessions, modest success, care, hardworking, nature loving, traditional</string>
+    <string name="family_karma_queen_pents">Opportunity to create a warm and homely environment for your family. You need to create better balance in your life to nurture your family as they are a priority to you. You have the potential to do it and the time is now.</string>
+
+    <string name="career_destiny_queen_swords">Disappointment in the past, firm and less nurturing environment in career.</string>
+    <string name="career_karma_queen_swords">Leave the past behind. There is nothing to hold on to except learning and the present action at hand. The environment guides you to get up and take firm resolve.</string>
+    <string name="love_destiny_queen_swords">Disappointment in the past, firm/adverse and less nurturing environment in love life.</string>
+    <string name="love_karma_queen_swords">Leave the past behind. There is nothing to hold on to except learning and the present action at hand. The environment guides you to get up and take firm resolve.</string>
+    <string name="health_destiny_queen_swords">Disappointment in the past, firm/adverse and less nurturing environment for health.</string>
+    <string name="health_karma_queen_swords">Leave the past behind. There is nothing to hold on to except learning and the present action at hand. The environment guides you to get up and take firm resolve.</string>
+    <string name="family_destiny_queen_swords">Disappointment in the past, firm and less nurturing environment for family and responsibilities.</string>
+    <string name="family_karma_queen_swords">Leave the past behind. There is nothing to hold on to except learning and the present action at hand. The environment guides you to get up and take firm resolve.</string>
+
+    <string name="career_destiny_queen_wands">Softer and gentler, development of journey, nurturing of ideas, over sensitive, honorable, social </string>
+    <string name="career_karma_queen_wands">Leading an active and busy life, you are capable of great creative vision and possess leadership qualities. Express your passions with courage and truthfulness. Those who say what they want, get what they want.</string>
+    <string name="love_destiny_queen_wands">Softer and gentler, development of journey, nurturing of ideas, over sensitive, honorable, social</string>
+    <string name="love_karma_queen_wands">Your energy and warmth permeates your relationships. You\'re passionate and love freedom of expression. Give the other side a chance to open up and be less over-sensitive about little things.</string>
+    <string name="health_destiny_queen_wands">Softer and gentler, development of journey, nurturing of ideas, over sensitive, honorable, social</string>
+    <string name="health_karma_queen_wands">Leading an active and busy life, you are capable of great creative vision and possess leadership qualities. Express your passions with courage and truthfulness. Those who say what they want, get what they want. This attitude will also have a positive effect on your well being</string>
+    <string name="family_destiny_queen_wands">Softer and gentler, development of journey, nurturing of ideas, over sensitive, honorable, social </string>
+    <string name="family_karma_queen_wands">Your energy and warmth permeates your relationships. You\'re passionate and love freedom of expression. Give the other side a chance to open up and be less over-sensitive about little things.</string>
+
+    <string name="career_destiny_seven_cups">Conflict in thoughts and emotions or choices to be made. Mystery, lack of direction.</string>
+    <string name="career_karma_seven_cups">Stay away from jealosy, pretense and confusion. Be sure of what you want and need. Seek advice from the one you trust.</string>
+    <string name="love_destiny_seven_cups">Conflict in thoughts and emotions or choices to be made. Mystery, lack of direction. </string>
+    <string name="love_karma_seven_cups">Stay away from jealosy, pretense and confusion. Be sure of what you want and need. Control the excessive flow of emotions by practicing reason. </string>
+    <string name="health_destiny_seven_cups">Conflict in thoughts and emotions or choices to be made. Mystery, lack of direction.</string>
+    <string name="health_karma_seven_cups">Stay away from jealosy, pretense and confusion. Be sure of what you want and need. Keep excessive emotions in check.</string>
+    <string name="family_destiny_seven_cups">Conflict in thoughts and emotions or choices to be made. Mystery, lack of direction. </string>
+    <string name="family_karma_seven_cups">Stay away from jealosy, pretense and confusion. Be sure of what you want and need. Control the excessive flow of emotions by practicing reason. Do check before misjudging someone</string>
+
+    <string name="career_destiny_seven_pents">Harnessing of divergent/challenging conditions, dissatisfaction with the result of hard work, doubts, worry about money/physical well being</string>
+    <string name="career_karma_seven_pents">Time to think. Take a look around and choose your efforts wisely. Not everything is worth the hard work. Try to love what you do if you can\'t do what you love</string>
+    <string name="love_destiny_seven_pents">Harnessing of divergent/challenging conditions, dissatisfaction with the result of hard work, doubts, worry about money/physical well being</string>
+    <string name="love_karma_seven_pents">Time to think. Take a look around and choose your efforts wisely. Not everything is worth the hard work.</string>
+    <string name="health_destiny_seven_pents">Harnessing of divergent/challenging conditions, dissatisfaction with the result of hard work, doubts, worry about money/physical well being </string>
+    <string name="health_karma_seven_pents">Time to think. Take a look around and choose your efforts wisely. Not everything is worth the hard work</string>
+    <string name="family_destiny_seven_pents">Harnessing of divergent/challenging conditions, dissatisfaction with the result of hard work, doubts, worry about money/physical well being</string>
+    <string name="family_karma_seven_pents">Stay put and rethink your efforts. Everything has a solution. Not everything is worth the time. Prioritize.</string>
+
+    <string name="career_destiny_seven_swords">Theft/loss of idea/power or protection of ideas/power in the light of impending trouble of opposite forces </string>
+    <string name="career_karma_seven_swords">Be aware of people playing the game and using you as a pawn or keeping you at a disadvantage for their gain. Keep an open eye for deceit</string>
+    <string name="love_destiny_seven_swords">Theft/loss of idea/power or protection of people in the light of impending trouble of opposite forces</string>
+    <string name="love_karma_seven_swords">Be aware of manipulation and deceit. Don\'t build distrust but be aware of the malice coming in from the false love people may show.</string>
+    <string name="health_destiny_seven_swords">Theft/loss of idea/power or protection of ideas/power in the light of impending trouble of opposite forces</string>
+    <string name="health_karma_seven_swords">Be aware of manipulation and deceit. Don\'t build distrust but be aware of the malice coming in from the false love people may show. Don\'t be so suspicious or unbelieving that it affects your health but keep an open eye.</string>
+    <string name="family_destiny_seven_swords">Theft/loss of idea/power or protection of people in the light of impending trouble of opposite forces</string>
+    <string name="family_karma_seven_swords">Be aware of manipulation and deceit. Don\'t build distrust but be aware of the malice coming in from the false love people may show.</string>
+
+    <string name="career_destiny_seven_wands">Adversities are presenting an opportunity to prove yourself. Standing ground and controlling overwhelming adverse forces.</string>
+    <string name="career_karma_seven_wands">Times are testing your strength and determination. You need to stay away from ignorance and fear and tackle the issues head on.</string>
+    <string name="love_destiny_seven_wands">Adversities are presenting an opportunity to prove yourself. Standing ground and controlling overwhelming adverse forces.</string>
+    <string name="love_karma_seven_wands">Times are testing your strength and determination. Stay away from pride and criticism and ignorance of the issues surrounding your life. They will resolve with help of your loved ones and with your own perseverance.</string>
+    <string name="health_destiny_seven_wands">Adversities are presenting an opportunity to prove yourself. Standing ground and controlling overwhelming adverse forces.</string>
+    <string name="health_karma_seven_wands">Times are testing your strength and determination. Stay away from ignorance and fear and tackle the issues head on.</string>
+    <string name="family_destiny_seven_wands">Adversities are presenting an opportunity to prove yourself. Standing ground and controlling overwhelming adverse forces.</string>
+    <string name="family_karma_seven_wands"> Times are testing your strength and determination. Stay away from ignorance and fear and tackle the issues head on with help of your loved ones and with your own perseverance.</string>
+
+    <string name="career_destiny_six_cups">Memories of good times, nostalgia, Stengthening bond and peace with the coworkers or friends who have worked with you in the past. </string>
+    <string name="career_karma_six_cups">Catch up with people in workplace and it will bring up mutual love.</string>
+    <string name="love_destiny_six_cups">Memories of good times, nostalgia. A good time to make peace and amends in friendship or relationship</string>
+    <string name="love_karma_six_cups"> Catch up with good old memories but be careful of not going down the bad memories.</string>
+    <string name="health_destiny_six_cups">Heightened emotions, nostalgia and lot of memories.</string>
+    <string name="health_karma_six_cups">Be careful of not going down the bad memories instead of good ones as that can affect health</string>
+    <string name="family_destiny_six_cups">Pleasures of the past, an emotional, nostalgic time.</string>
+    <string name="family_karma_six_cups">Catch up with friends and family and be careful of not going down the bad memories.</string>
+
+    <string name="career_destiny_six_pents">Generosity of giving and joy of receiving</string>
+    <string name="career_karma_six_pents">You have a lot and not many are so lucky. Give  to the poor. This gesture will add points to your karma and open the doors for rewards in places you\'ve not imagined.</string>
+    <string name="love_destiny_six_pents">Generosity of giving and joy of receiving</string>
+    <string name="love_karma_six_pents">A time to come together and settle the differences with the loved ones. Give out gifts. This gesture will add points to your karma and open the doors for rewards in places you\'ve not imagined.</string>
+    <string name="health_destiny_six_pents">Generosity of giving and joy of receiving</string>
+    <string name="health_karma_six_pents">Be thankful for whatever health you have, not many are so lucky.  Give  to the poor. This gesture will add points to your karma and open the doors for rewards in places you\'ve not imagined.</string>
+    <string name="family_destiny_six_pents">Generosity of giving and joy of receiving.</string>
+    <string name="family_karma_six_pents">Be grateful for what you have and give more. Small gestures of kindness will add points to your karma and open the doors for rewards in places you\'ve not imagined.</string>
+
+    <string name="career_destiny_six_swords">In mid of a voyage and not yet arrived at solution. The challenges are with you but they\'re on the way to finding a solution. Counselling helps.</string>
+    <string name="career_karma_six_swords">Have patience. Important and well thought out, gradual steps towards the solution will show result eventually.</string>
+    <string name="love_destiny_six_swords">In mid of a voyage and not yet arrived at solution. The challenges are with you but they\'re on the way to finding a solution.</string>
+    <string name="love_karma_six_swords">Practice patience, harmony and sympathy when it comes to relationships. The issues may not be looking like they\'ve resolved, but with right attitude, it is only a matter of time before they do. Seek trusted counselling from a friend.</string>
+    <string name="health_destiny_six_swords">In mid of a voyage and not yet arrived at solution. The challenges are with you but they\'re on the way to finding a solution. Counselling helps. </string>
+    <string name="health_karma_six_swords">Have patience. Important steps towards the solution to health problems will show result eventually.</string>
+    <string name="family_destiny_six_swords">In mid of a voyage and not yet arrived at solution. The challenges are with you but they\'re on the way to finding a solution. Counselling helps.</string>
+    <string name="family_karma_six_swords">Practice patience, harmony and sympathy with people around you. The issues may not be looking like they\'ve resolved, but with right attitude, it is only a matter of time  before they do.</string>
+
+    <string name="career_destiny_six_wands">Triumphant arrival and better days ahead. Adoration. Illusory pomp. Savor the moment but don\'t forget the work.</string>
+    <string name="career_karma_six_wands">The boat is moving towards calmer waters but it is still you who\'s rowing it. The worst is over but the work is not.</string>
+    <string name="love_destiny_six_wands">Triumphant arrival and better days ahead. Adoration. Illusory pomp. Savor the moment but don\'t forget the work</string>
+    <string name="love_karma_six_wands">The boat is moving towards calmer waters but it is still you who\'s rowing it. The worst is over but the work is not. Don\'t forget to learn from your mistakes.</string>
+    <string name="health_destiny_six_wands">Triumphant arrival and better days ahead. Adoration. Illusory pomp. Savor the moment but don\'t forget the work.</string>
+    <string name="health_karma_six_wands">The boat is moving towards calmer waters but it is still you who\'s rowing it. The worst is over but the work is not. Don\'t forget to learn from your mistakes</string>
+    <string name="family_destiny_six_wands">Triumphant arrival and better days ahead. Adoration. Illusory pomp. Savor the moment but don\'t forget the work.</string>
+    <string name="family_karma_six_wands">The boat is moving towards calmer waters but it is still you who\'s rowing it. The worst is over but the work is not.</string>
+
+    <string name="career_destiny_strength">Intelligence, Mastering of skill to control the opposite forces, intuition, power of faith</string>
+    <string name="career_karma_strength">This is the time to master patience and self control, which are the tools to succeed in professional life. They help tame many a unruly situation.</string>
+    <string name="love_destiny_strength">Intelligence, Mastering of skill to control the opposite forces, intuition, power of faith</string>
+    <string name="love_karma_strength">It is a time to retreat into your spiritual self and realising your strengths. This will help you tame difficult situations and firmly hold your ground, thus supporting your loved ones.</string>
+    <string name="health_destiny_strength">Intelligence, Mastering of skill to control the opposite forces, intuition, power of faith </string>
+    <string name="health_karma_strength">It is a time to retreat into your spiritual self and realising your strengths. This will help you tame difficult situations and firmly hold your ground, thus supporting your loved ones.</string>
+    <string name="family_destiny_strength">Intelligence, Mastering of skill to control the opposite forces, intuition, power of faith</string>
+    <string name="family_karma_strength">It is a time to retreat into your spiritual self and realising your strengths. This will help you tame difficult situations and firmly hold your ground, thus supporting your loved ones.</string>
+
+    <string name="career_destiny_temperance">Balance, equilibrium, compromise, moderation, reconciliation.</string>
+    <string name="career_karma_temperance">In order to get the results, you need to give up something else. Hard work and letting go of temptation will lead to the desired outcome.</string>
+    <string name="love_destiny_temperance">Balance, equilibrium, compromise, moderation, reconciliation.</string>
+    <string name="love_karma_temperance">Sometimes we need to let go of the worldly pleasures and the promise of love and focus on the task at hand. It is not an easy task, but a fruitful one.</string>
+    <string name="health_destiny_temperance">Balance, equilibrium, compromise, moderation, reconciliation.</string>
+    <string name="health_karma_temperance">Everything is good in moderation. Let go of the temptation and follow your goal. It is a hard road ahead and a lot of hard work involved. Practice letting go of the excess.</string>
+    <string name="family_destiny_temperance">Balance, equilibrium, compromise, moderation, reconciliation.</string>
+    <string name="family_karma_temperance">To achieve stability, compromise and reconcile. You shouldn\'t hold on to your ignorance or your belief too hard and fast and should give space to others.</string>
+
+    <string name="career_destiny_ten_cups">Celebration and stability of home life, control and emotional maturity</string>
+    <string name="career_karma_ten_cups">Enjoy your time. Leave your worries for a while and socialize. Make friends and spend time with close ones. A good time for reunions.</string>
+    <string name="love_destiny_ten_cups">Celebration and stability of home life, control and maturity, good times, reunions</string>
+    <string name="love_karma_ten_cups">Enjoy your time, alone or with someone. Remember that life is too short to worry all the time. Spend time with your loved ones, find out ways to connect outside of your shell.</string>
+    <string name="health_destiny_ten_cups">Celebration and stability of home life, control and maturity, good times, reunions. </string>
+    <string name="health_karma_ten_cups">Active social life can lead to health benefits. Make time to reach out to loved ones, spend memorable time. Realize that a good life is not just about relentless pursuits, but also about contentment that comes from realization of what you have.</string>
+    <string name="family_destiny_ten_cups">Celebration and stability of home life, control and maturity, good times, reunions</string>
+    <string name="family_karma_ten_cups">Enjoy your time. Leave your worries for a while and socialize. Make friends and spend time with close ones. A good time for reunions.</string>
+
+    <string name="career_destiny_ten_pents">Environment of completion. Things come full circle and bestow satisfaction and comfort. </string>
+    <string name="career_karma_ten_pents">Enjoy your moments, Calm down and share your experience. Give back to charity and earn good luck for the new task ahead.</string>
+    <string name="love_destiny_ten_pents">Completion and finality of issues/tasks leading to environment of love and comfortable coexistence.</string>
+    <string name="love_karma_ten_pents">Thank the ones who\'re with you in your journey, don\'t hold back on gratitude. Give love back even to those who doubted you.</string>
+    <string name="health_destiny_ten_pents">Improvement in mental and physical health due to fruitful results of a task at hand. Good health will prevail.</string>
+    <string name="health_karma_ten_pents">Spread the love and gratitude no matter what. Give money to the poor. Share your health and wealth and most importantly, enjoy your time.</string>
+    <string name="family_destiny_ten_pents">Resolution, finality, completion. Good relations and happy coexistence.</string>
+    <string name="family_karma_ten_pents">Spread the love and gratitude no matter what. Give back to the family and close friends. Share your health and wealth and most importantly, enjoy your time.</string>
+
+    <string name="career_destiny_ten_swords">Death of idea/project, pain or loss from inaction or wasted action.</string>
+    <string name="career_karma_ten_swords">Need to look forward and not to cry over what\'s lost in the past. Change the method and approach the present with a new perspective.</string>
+    <string name="love_destiny_ten_swords">Death of idea/feeling, pain or loss from inaction or wasted action.</string>
+    <string name="love_karma_ten_swords">Need to look forward and not to cry over what\'s lost in the past. Present comes with its own challenges which need your attention and time. Keep going holding on to the present.</string>
+    <string name="health_destiny_ten_swords">Ending of idea/regime, pain or loss from inaction or wasted action.</string>
+    <string name="health_karma_ten_swords">Need to look forward and not to cry over what\'s lost in the past. It seems difficult but the present will be the past of tomorrow so it is good to concentrate on making it better.</string>
+    <string name="family_destiny_ten_swords">Ending of an important relationship or common feeling, pain or loss from inaction or wasted action. </string>
+    <string name="family_karma_ten_swords">Need to look forward and not to cry over what\'s lost in the past. It seems difficult but the present will be the past of tomorrow so it is good to concentrate on making it better.</string>
+
+    <string name="career_destiny_ten_wands">Burden of the work/past/ideas. Being stuck in a rut.</string>
+    <string name="career_karma_ten_wands">Time to leave the old burdens behind and pursue new ones. They won\'t come without their own burden but for a while, new beginnings will uplift the spirit.</string>
+    <string name="love_destiny_ten_wands">Love bringing you down with its burdens, in the form of responsibilities and misconceptions</string>
+    <string name="love_karma_ten_wands">Don\'t test relationships and friendships too much. Let them be at their own pace. Seek resolves without carrying the baggage of it.</string>
+    <string name="health_destiny_ten_wands">Burden of work/responsibilities can inhibit good health and give rise to anxiety and depression.</string>
+    <string name="health_karma_ten_wands">Time to leave the old burdens behind and pursue new ones. They won\'t come without their own burden but for a while, new beginnings will uplift the spirit.</string>
+    <string name="family_destiny_ten_wands">Love bringing you down with its burdens, in the form of responsibilities and misconceptions.</string>
+    <string name="family_karma_ten_wands">Don\'t test relationships and friendships too much. Let them be at their own pace. Seek resolves without carrying the baggage of it.</string>
+
+    <string name="career_destiny_the_chariot">Coming together of opposing forces, contradiction, instability, duality of thought, hard won victory.</string>
+    <string name="career_karma_the_chariot">When there are difficult times, keep going. Instability in career will resolve only with tough skin and mindset.</string>
+    <string name="love_destiny_the_chariot">Coming together of opposing forces, contradiction, instability, duality of thought, hard won victory</string>
+    <string name="love_karma_the_chariot">When there are difficult times, keep going. Compromise, don\'t fight for everything. Contradictions happen and resolve, its a cycle. So keep a stoic attitude</string>
+    <string name="health_destiny_the_chariot">Coming together of opposing forces, contradiction, instability, duality of thought, hard won victory</string>
+    <string name="health_karma_the_chariot">When there are difficult times, keep going. Don\'t let your health be silently affected by this. Remember, everything depends on how you react to things. Contradictions happen and resolve, its a cycle. So keep a stoic attitude</string>
+    <string name="family_destiny_the_chariot">Coming together of opposing forces, contradiction, instability, duality of thought, hard won victory</string>
+    <string name="family_karma_the_chariot">When there are difficult times, keep going. Compromise, don\'t fight for everything. Contradictions happen and resolve, its a cycle. So keep a stoic attitude.</string>
+
+    <string name="career_destiny_the_devil">Unhealthy dependencies are bringing you down. Irresistible powers are working to distract you from your work.</string>
+    <string name="career_karma_the_devil">Avoid denial of problems and confront the issues at hand. Don\'t let situations or people take control of your life. Don\'t make the choices you\'re not comfortable making and you\'ll be safe from traps. It is a tough road but you can make it.</string>
+    <string name="love_destiny_the_devil">Unhealthy desires and uncontrollable, hard to resist situations are making your life weak and dependent. You\'re falling into traps and are in denial.</string>
+    <string name="love_karma_the_devil">Avoid denial of problems and confront the issues at hand. Don\'t let situations or people take control of your life. Don\'t make the choices you\'re not comfortable making and you\'ll be safe from traps. It is a tough road but you can make it.</string>
+    <string name="health_destiny_the_devil">Unhealthy desires and uncontrollable, hard to resist situations are making your life weak and dependent. You\'re falling into traps and are in denial.</string>
+    <string name="health_karma_the_devil">Avoid denial of problems and confront the issues at hand. Take your health seriously. Not many issues are visible on the outside. Avoid drugs and alcohol. Don\'t make the choices you\'re not comfortable making and you\'ll be safe from traps. It is a tough road but you can make it.</string>
+    <string name="family_destiny_the_devil">Unhealthy intentions and uncontrollable, hard to resist situations are making your life weak and dependent. You\'re falling into traps and are in denial.</string>
+    <string name="family_karma_the_devil">Avoid denial of problems and confront the issues at hand. Don\'t let situations or people take control of your life. Don\'t make the choices you\'re not comfortable making and you\'ll be safe from traps. It is a tough road but you can make it.</string>
+
+    <string name="career_destiny_the_emperor">Stability, father figure, structure, order</string>
+    <string name="career_karma_the_emperor">Good chances of landing a job, making good improvements in current work life if you show maturity and wise decision making. Conductive time to seek solid results if you remain stoic, confident and put in generous hard work.</string>
+    <string name="love_destiny_the_emperor">Stability, father figure, structure, order</string>
+    <string name="love_karma_the_emperor">Understand that you need to be the \'wise, elder one\' and show maturity. Improvements in relationships with loved ones can be made during this time. Keep the decision making to yourself rather than spread it around to other people.</string>
+    <string name="health_destiny_the_emperor">Stability, father figure, structure, order</string>
+    <string name="health_karma_the_emperor"> Big possibility of stability and improvements in health if the structure and rules are made by self and followed religiously.</string>
+    <string name="family_destiny_the_emperor">Stability, father figure, structure, order.</string>
+    <string name="family_karma_the_emperor">Be the one to make the rules or facilitate them. Stability can be achieved and you will have to play the role of the elder one, understanding the limitations and freedom and making wise decisions.</string>
+
+    <string name="career_destiny_the_empress">Creation of concrete idea, start of bringing the idea to fruition.</string>
+    <string name="career_destiny_the_fool">Unawareness and innocence, blank slate, curiosity, infinite possibilities, questions, wonder, excitement, no idea of the future, optimism.</string>
+    <string name="career_destiny_the_hanged_man">Change of perspective, swaying between decisions, trapped, but with no agony, struggle which must be endured, focus, self discovery. </string>
+    <string name="career_destiny_the_heirophant">Teachings, tradition, consistency, faith, goodness, compassion. </string>
+    <string name="career_destiny_the_hermit">Peaceful knowledge, experience, introspection, careful thought, near completion of goal, counsellor, need for loneliness, insight</string>
+    <string name="career_destiny_the_high_priestess">Secret, mystery, middle way between inception and creation of idea.</string>
+    <string name="career_destiny_the_lovers">Fleeting temptation, infatuation, passion, coming together, partial stability.</string>
+    <string name="career_destiny_the_moon">Land of danger, time of confusion, questionable decisions, darker side of creativity, scary world.</string>
+    <string name="career_destiny_the_star">Guidance, illumination, nourishment, objective or result is very far, patience is needed</string>
+    <string name="career_destiny_the_sun">Happy times of simple and innocent pleasures, amazement, surprises.</string>
+    <string name="career_destiny_the_tower">Rude awakening, shocking realization or belief, violent shake up in work environment</string>
+    <string name="career_destiny_the_world">Looking outwards, completion of long term project, coming out of a long struggle, promotion, journey.</string>
+    <string name="career_destiny_three_cups">Celebration, new passion, beginnings.</string>
+    <string name="career_destiny_three_pents">Possibility of rewards, new beginnings in action for career, physical world</string>
+    <string name="career_destiny_three_swords">Heartbreak, disappointment with closely held posessions</string>
+    <string name="career_destiny_three_wands">Journey reaching a point where there\'s no turning back.</string>
+    <string name="career_destiny_two_cups">Unexpected meeting, friends/people coming together for exchange of ideas, opportunity and direction. </string>
+    <string name="career_destiny_two_pents">Juggling finances, health, a very physical life.</string>
+    <string name="career_destiny_two_swords">Duality or warring ideas</string>
+    <string name="career_destiny_two_wands">Struggle of lesser potential, choice between personal world and the beyond</string>
+    <string name="career_destiny_wheel_of_fortune">Return to the start, wrapping up of loose ends, completion and new beginnings, success or failure in past but opening of new opportunities. </string>
+
+    <string name="career_karma_the_empress">Abundance of opportunities await in your consciousness, spend time with yourself and bring them forth. It is also a great time to be close to nature and to take time off work.</string>
+    <string name="career_karma_the_fool">Embrace the eventualities and keep going. There is a way everywhere. Be optimistic and rely on your instincts when it comes to your career choices</string>
+    <string name="career_karma_the_hanged_man">Endure the struggle not by struggling with it, but by changing your reaction to it.</string>
+    <string name="career_karma_the_heirophant">Universe is imparting age old wisdom to you. Understand that without faith in what you do and consistency, nothing ever has been achieved. Time is good for such realization and working methodically towards the goal.</string>
+    <string name="career_karma_the_hermit">You have the answers within you, there is no need for counselling or looking outside for help. It is time to look into yourself and start planting seeds of confidence and self reliance. This will help you manifest great skills.</string>
+    <string name="career_karma_the_high_priestess">Strong forces are working to veil the truth. You need to watch out keenly for what\'s good and what\'s bad. Be careful of deception.</string>
+    <string name="career_karma_the_lovers">This time represents the establishment of a personal belief system and becoming clearer about your own values. This is a time when you are figuring out what you stand for and what your personal philosophy on life is.</string>
+    <string name="career_karma_the_moon">Navigate through the web of your concerns and bad decisions not by ignoring them but by accepting them. Life is unfair and the only tool you have at your disposal is your own will to do good and survive.</string>
+    <string name="career_karma_the_star">Patience is the key to everything. Leave things which you can\'t control or cannot predict and focus on the task at hand.</string>
+    <string name="career_karma_the_sun">Enjoy the simple experiences. Time to change your outlook from future facing to present facing.</string>
+    <string name="career_karma_the_tower">This is the right time to hold on to and rely on the people that you trust the most. Deception is all around you so choose wisely but mostly keep the important affairs to yourself. Rely more on stability than the risk.</string>
+    <string name="career_karma_the_world">Look for opportunities as the environment is very conductive and helpful. Be grateful and excited to move on. Brainstorm on new ideas and allow yourself freedom of thought.</string>
+    <string name="career_karma_three_cups">Time is conductive for starting a new project or money making operation. Be grateful for where you are. Take pleasure in simple accomplishments and try to enjoy the process and the hard work.</string>
+    <string name="career_karma_three_pents">Grab opportunities, see your current role with different perspectives and seek new ideas. Where there is will, money will follow</string>
+    <string name="career_karma_three_swords">Adverse situations are clouding in. This is the time to be more positive. It is the time to show the outside world your resilience. Don\'t be bogged down by the negativity.</string>
+    <string name="career_karma_three_wands">Your decisions matter a lot. Your choices matter a lot. Don\'t go blindly into areas that concern you. Look at things from more angles instead of turning a blind eye</string>
+    <string name="career_karma_two_cups">Good time to make new friends and keep up with the old ones. You never know which one might help you out when it comes to inspiration or opportunity. So take some time out to stay in touch.</string>
+    <string name="career_karma_two_pents">In these turbulent times, be patient and stoic. Divide the work to conquor it.</string>
+    <string name="career_karma_two_swords"> The surroundings are not very favorable of conclusions and incline more towards opposing ideas and incompletion of targets. Be prepared for delays and keep your eyes open to actions or decisions that may not turn out to be in your favor.</string>
+    <string name="career_karma_two_wands"> Both the outer world and your internal world are showing signs of lack of resolve and contentment. Time to leave some decisions behind for later and persue the ones on priority. Know that Rome was not built in a day. In order for you to move forward, you will have to let go of some conflict even if they\'re not resolved.</string>
+    <string name="career_karma_wheel_of_fortune">Be open minded and stoic in this time of change. Big forces working towards the good. Leave the rapid change to itself and hope for the best. Practice letting go and being grateful.</string>
+
+    <string name="love_destiny_the_empress">Creation of concrete idea, start of bringing the idea to fruition</string>
+    <string name="love_destiny_the_fool">Unawareness and innocence, blank slate, curiosity, infinite possibilities, questions, wonder, excitement, no idea of the future, optimism.</string>
+    <string name="love_destiny_the_hanged_man">Change of perspective, swaying between decisions, trapped, but with no agony, struggle which must be endured, focus, self discovery.</string>
+    <string name="love_destiny_the_heirophant">Teachings, tradition, consistency, faith, goodness, compassion</string>
+    <string name="love_destiny_the_hermit">Peaceful knowledge, experience, introspection, careful thought, near completion of goal, counsellor, need for loneliness, insight</string>
+    <string name="love_destiny_the_high_priestess">Secret, mystery, middle way between inception and creation of idea</string>
+    <string name="love_destiny_the_lovers">Fleeting temptation, infatuation, passion, coming together, partial stability</string>
+    <string name="love_destiny_the_moon">Land of danger, time of confusion, questionable decisions, darker side of creativity, scary world </string>
+    <string name="love_destiny_the_star">Guidance, illumination, nourishment, objective or result is very far, patience is needed </string>
+    <string name="love_destiny_the_sun">Happy times of simple and innocent pleasures, amazement, surprises</string>
+    <string name="love_destiny_the_tower">Rude awakening, shocking realization or belief, violent shake up in love life.</string>
+    <string name="love_destiny_the_world">looking outwards, completion of long term wish, coming out of a long struggle, promotion, journey.</string>
+    <string name="love_destiny_three_cups">Celebration, new passion, beginnings</string>
+    <string name="love_destiny_three_pents">Possibility of rewards, new beginnings in action for love, physical world </string>
+    <string name="love_destiny_three_swords">Heartbreak,disappointment with closely held things</string>
+    <string name="love_destiny_three_wands">Journey reaching a point where there\'s no turning back</string>
+    <string name="love_destiny_two_cups">Unexpected meeting, people coming together for exchange of emotions, opportunity and direction</string>
+    <string name="love_destiny_two_pents">Juggling love, finances, health, a very physical life</string>
+    <string name="love_destiny_two_swords">Duality or warring ideas</string>
+    <string name="love_destiny_two_wands">Struggle of lesser potential, choice between personal world and the beyond</string>
+    <string name="love_destiny_wheel_of_fortune">Return to the start, wrapping up of loose ends, completion and new beginnings, success or failure in past but opening of new opportunities</string>
+
+    <string name="love_karma_the_empress">Take time off and enjoy your time with yourself or your loved one. It is time to nurture new ideas and to connect to your true nature. The universe encourages you to get out of your shell. Learn to meditate and go on a trip.</string>
+    <string name="love_karma_the_fool">Embrace the eventualities and keep going. There is a way everywhere. Be optimistic and rely on your instincts to find a way through love</string>
+    <string name="love_karma_the_hanged_man">Endure the struggle not by struggling with it, but by changing your reaction to it.</string>
+    <string name="love_karma_the_heirophant"> Universe is imparting age old wisdom to you. Understand that without faith and compassion, nothing ever has been accomplished. You\'ve learned alot. Apply what you\'ve learned and you\'ll see the environment improve. Love is always the answer.</string>
+    <string name="love_karma_the_hermit">Time to take your personal space and introspect. Realize your potential, your goods and bads and which qualities if you work on more, will support your loved one. Take your time as this buffer time is essential in order to resume to daily complex continuity of life.</string>
+    <string name="love_karma_the_high_priestess">Strong forces are working to veil the truth. You need to watch out keenly for what\'s good and what\'s bad. Be careful of deception.</string>
+    <string name="love_karma_the_lovers"> A dilemma will be presented demanding an action or decision, and you will want to decipher the best way to proceed or make the right choice. Something is going to change your plans or the course of your experience, something that may look negative on the surface but will later prove to be a blessing in disguise.</string>
+    <string name="love_karma_the_moon">Not a good time to bring out the other person\'s bad side or even your bad side. Stay protected by trusting your will to survive any scenario. Restore faith in the loved ones towards yourself as a protector.</string>
+    <string name="love_karma_the_star">Patience is the key to everything. Leave things which you can\'t control or cannot predict. This will help clear your mind of all the clutter and let you see yourself and your loved one in focus again</string>
+    <string name="love_karma_the_sun">Notice the love you\'ve been missing in plain sight. Time to change your outlook from future facing to present facing.</string>
+    <string name="love_karma_the_tower">This is the right time to hold on to and rely on the people that you trust the most. Lack of trust and sharing can bring up awkward and false impression of the relationship. Stand your ground on matters of love. Don\'t let others or situations decide your fate. You\'ll get through these speedy, confusing situations soon.</string>
+    <string name="love_karma_the_world"> Look for some time to take it all in and be grateful for the blessings along the way no matter what the present is. Seek new ideas and plans. Strong benevolent forces will protect you and your loved ones.</string>
+    <string name="love_karma_three_cups">Time is conductive for meeting new people and starting a new relationship. Be grateful for where you are. There is a lot of pleasure in simple beginnings. Don\'t be afraid of uncertainty and engage in life fully.</string>
+    <string name="love_karma_three_pents">Find new ways to experiment with love life, there are rewards waiting for your efforts.</string>
+    <string name="love_karma_three_swords">Adverse situations are clouding in. This is the time to be more positive. It is the time to show the outside world your resilience. Don\'t be bogged down by the negativity.</string>
+    <string name="love_karma_three_wands">Your decisions matter a lot. Your choices matter a lot. Don\'t go blindly into areas that concern you. Look at things from more angles instead of turning a blind eye. </string>
+    <string name="love_karma_two_cups">The possibility of renewal of an old relationship or inception of a new one are high. Keep your mind and heart open to companionship.</string>
+    <string name="love_karma_two_pents">In these turbulent times, be patient and stoic and keep the loved ones close.</string>
+    <string name="love_karma_two_swords">The surroundings are not very favorable of conclusions and incline more towards opposing ideas and lack of resolve. Be prepared for delays and keep your eyes open to actions or decisions that may not turn out to be in your favor.</string>
+    <string name="love_karma_two_wands"> Inner and outer worlds conflict and present questions. You dont have to resolve all the conflicts today, only the ones that affect normal wellbeing. Prioritize your issues. Don\'t fret on things you cannot control.</string>
+    <string name="love_karma_wheel_of_fortune">Be open minded and stoic in this time of change. Big forces working towards the good. Leave the rapid change to itself and hope for the best. Practice letting go and being grateful.</string>
+
+    <string name="health_destiny_the_empress">Creation of concrete idea, start of bringing the idea to fruition</string>
+    <string name="health_destiny_the_fool">Unawareness and innocence, blank slate, curiosity, infinite possibilities, questions, wonder, excitement, no idea of the future, optimism.</string>
+    <string name="health_destiny_the_hanged_man">Change of perspective, swaying between decisions, trapped, but with no agony, struggle which must be endured, focus, self discovery. </string>
+    <string name="health_destiny_the_heirophant">Teachings, tradition, consistency, faith, goodness, compassion</string>
+    <string name="health_destiny_the_hermit">Peaceful knowledge, experience, introspection, careful thought, near completion of goal, counsellor, need for loneliness, insight</string>
+    <string name="health_destiny_the_high_priestess">Secret, mystery, middle way between inception and creation of idea</string>
+    <string name="health_destiny_the_lovers">Fleeting temptation, infatuation, passion, coming together, partial stability</string>
+    <string name="health_destiny_the_moon">Land of danger, time of confusion, questionable decisions, darker side of creativity, scary world</string>
+    <string name="health_destiny_the_star">Guidance, illumination, nourishment, objective or result is very far, patience is needed </string>
+    <string name="health_destiny_the_sun">Happy times of simple and innocent pleasures, amazement, surprises.</string>
+    <string name="health_destiny_the_tower">Rude awakening, shocking realization or belief, violent shake up in health conditions</string>
+    <string name="health_destiny_the_world">looking outwards, completion of long term project, coming out of a long struggle, promotion, journey</string>
+    <string name="health_destiny_three_cups">Celebration, new passion, beginnings</string>
+    <string name="health_destiny_three_pents">Possibility of rewards, new beginnings in action for health, physical world</string>
+    <string name="health_destiny_three_swords">Heartbreak, disappointment with closely held things </string>
+    <string name="health_destiny_three_wands">Journey reaching a point where there\'s no turning back</string>
+    <string name="health_destiny_two_cups">Unexpected meeting, friends/people coming together for exchange of ideas, opportunity and direction. </string>
+    <string name="health_destiny_two_pents">Juggling health, finances, a very physical life</string>
+    <string name="health_destiny_two_swords">Duality or warring ideas </string>
+    <string name="health_destiny_two_wands">Struggle of lesser potential, choice between personal world and the beyond </string>
+    <string name="health_destiny_wheel_of_fortune">Return to the start, wrapping up of loose ends, completion and new beginnings, success or failure in past but opening of new opportunities.</string>
+
+    <string name="health_karma_the_empress">Take time off and enjoy your time with yourself or your loved one. It is time to nurture new ideas and to connect to your true nature. The universe encourages you to get out of your shell. Learn to meditate and go on a trip. This can have tremendous positive effect on your well being.</string>
+    <string name="health_karma_the_fool">Embrace the eventualities and keep going. There is a way everywhere. Be optimistic and rely on your instincts rather than prescribed methods to improve your health</string>
+    <string name="health_karma_the_hanged_man">Endure the struggle not by struggling with it, but by changing your reaction to it.</string>
+    <string name="health_karma_the_heirophant">Universe is imparting age old wisdom to you. Understand that without faith and compassion, nothing ever has been accomplished. You\'ve learned alot. Apply what you\'ve learned and you\'ll see the environment improve.</string>
+    <string name="health_karma_the_hermit">Time to take your personal space and introspect. Realize your potential, your goods and bads. This will help you build great inner strength and know yourself better. Take your time as this buffer time is essential in order to resume to daily complex continuity of life.</string>
+    <string name="health_karma_the_high_priestess">Strong forces are working to veil the truth. You need to watch out keenly for what\'s good and what\'s bad. Be careful of deception.</string>
+    <string name="health_karma_the_lovers">A dilemma will be presented demanding an action or decision, and you will want to decipher the best way to proceed or make the right choice. Something is going to change your plans or the course of your experience, something that may look negative on the surface but will later prove to be a blessing in disguise.</string>
+    <string name="health_karma_the_moon">Watch out for adverse health conditions. Stay protected by having a strong will to survive. Lay low and navigate through this confusing web of the fate.</string>
+    <string name="health_karma_the_star">Patience is the key to everything. Leave things which you can\'t control or cannot predict. This will help clear your mind of all the clutter and let you see yourself in focus again</string>
+    <string name="health_karma_the_sun">Enjoy the simple improvements. Time to change your outlook from future facing to present facing. Be an observer of the present and the future will fall into place.</string>
+    <string name="health_karma_the_tower">Seek out psychological support of people you trust the most. Stand your ground. You\'ll get through these speedy, confusing and untrustworthy situations soon.</string>
+    <string name="health_karma_the_world">Look for some time to take it all in and be grateful for the blessings along the way no matter what the present is. Seek new ideas and plans.</string>
+    <string name="health_karma_three_cups"> Time to start on a new regime and follow through. Enjoy simple beginnings and small accomplishments. You don\'t have to be fully prepared to start. Enjoy your time and hard work you put in.</string>
+    <string name="health_karma_three_pents">Embrace new ways to improve health. Based on your efforts, rewards will be quick to come.</string>
+    <string name="health_karma_three_swords">Adverse situations are clouding in. This is the time to be more positive. It is the time to show the outside world your resilience. Don\'t be bogged down by the negativity.</string>
+    <string name="health_karma_three_wands">Your decisions matter a lot. Your choices matter a lot. Don\'t go blindly into areas that concern you. Look at things from more angles instead of turning a blind eye</string>
+    <string name="health_karma_two_cups">Good time to make new friends and keep up with the old ones. You never know which one might help you out when in need of support.  So take some time out to stay in touch.</string>
+    <string name="health_karma_two_pents">In these turbulent times, be patient and stoic and concentrate on having positive attitude.</string>
+    <string name="health_karma_two_swords">The surroundings are not very favorable of conclusions and incline more towards opposing ideas and lack of resolve. Be prepared for delays and keep your eyes open to actions or decisions that may not turn out to be in your favor. Follow your instincts and try to keep your mind as free from conflict as possible.</string>
+    <string name="health_karma_two_wands"> Health issues may present themselves, even in the form of small choices and conflicts. Resolution may not be around the corner but be patient and make better choices when it comes to your life.</string>
+    <string name="health_karma_wheel_of_fortune">Be open minded and stoic in this time of change. Big forces working towards the good. Leave the rapid change to itself and hope for the best. Practice letting go and being grateful.</string>
+
+    <string name="family_destiny_the_empress">Creation of concrete idea, start of bringing the idea to fruition</string>
+    <string name="family_destiny_the_fool">Unawareness and innocence, blank slate, curiosity, infinite possibilities, questions, wonder, excitement, no idea of the future, optimism.</string>
+    <string name="family_destiny_the_hanged_man">Change of perspective, swaying between decisions, trapped, but with no agony, struggle which must be endured, focus, self discovery.</string>
+    <string name="family_destiny_the_heirophant">Teachings, tradition, consistency, faith, goodness, compassion</string>
+    <string name="family_destiny_the_hermit">Peaceful knowledge, experience, introspection, careful thought, near completion of goal, counsellor, need for loneliness, insight </string>
+    <string name="family_destiny_the_high_priestess">Secret, mystery, middle way between inception and creation of idea</string>
+    <string name="family_destiny_the_lovers">Fleeting temptation, infatuation, passion, coming together, partial stability</string>
+    <string name="family_destiny_the_moon">Land of danger, time of confusion, questionable decisions, darker side of creativity, scary world </string>
+    <string name="family_destiny_the_star">Guidance, illumination, nourishment, objective or result is very far, patience is needed</string>
+    <string name="family_destiny_the_sun">Happy times of simple and innocent pleasures, amazement, surprises</string>
+    <string name="family_destiny_the_tower">Rude awakening, shocking realization or belief, violent shake up in family values, relations</string>
+    <string name="family_destiny_the_world">looking outwards, completion of long term project, coming out of a long struggle, promotion, journey.</string>
+    <string name="family_destiny_three_cups">Celebration, new passion, beginnings</string>
+    <string name="family_destiny_three_pents">Possibility of rewards, new beginnings in action for family, physical world</string>
+    <string name="family_destiny_three_swords">Heartbreak, disappointment with closely held things</string>
+    <string name="family_destiny_three_wands">Journey reaching a point where there\'s no turning back</string>
+    <string name="family_destiny_two_cups">Unexpected meeting, friends/family coming together for exchange of ideas, opportunity and direction</string>
+    <string name="family_destiny_two_pents">Juggling family, finances, health, a very physical life</string>
+    <string name="family_destiny_two_swords">Duality or warring ideas </string>
+    <string name="family_destiny_two_wands">Struggle of lesser potential, choice between personal world and the beyond</string>
+    <string name="family_destiny_wheel_of_fortune">Return to the start, wrapping up of loose ends, completion and new beginnings, success or failure in past but opening of new opportunities.</string>
+
+    <string name="family_karma_the_empress"> Take time off and enjoy your time with yourself or your loved ones. It is time to nurture new ideas and to connect to your true nature. The universe encourages you to get out of your shell. Learn to meditate and go on a trip.</string>
+    <string name="family_karma_the_fool">Embrace the eventualities and keep going. There is a way everywhere. Be optimistic and rely on your instincts with regards to decisions you will make for your family</string>
+    <string name="family_karma_the_hanged_man">Endure the struggle not by struggling with it, but by changing your reaction to it.</string>
+    <string name="family_karma_the_heirophant"> Universe is imparting age old wisdom to you. Understand that without faith and compassion, nothing ever has been accomplished. You\'ve learned alot. Apply what you\'ve learned and you\'ll see the environment improve.</string>
+    <string name="family_karma_the_hermit">Time to take your personal space and introspect. Realize your potential, your goods and bads and which qualities if you work on more, will support your loved one. Take your time as this buffer time is essential in order to resume to daily complex continuity of life.</string>
+    <string name="family_karma_the_high_priestess"> Strong forces are working to veil the truth. You need to watch out keenly for what\'s good and what\'s bad. Be careful of deception.</string>
+    <string name="family_karma_the_lovers">A dilemma will be presented demanding an action or decision, and you will want to decipher the best way to proceed or make the right choice. Something is going to change your plans or the course of your experience, something that may look negative on the surface but will later prove to be a blessing in disguise.</string>
+    <string name="family_karma_the_moon">Not a good time to bring out the other person\'s bad side or even your bad side. Stay protected by trusting your will to survive any scenario. Restore faith in the loved ones towards yourself as a protector.</string>
+    <string name="family_karma_the_star"> Patience is the key to everything. Leave things which you can\'t control or cannot predict. This will help clear your mind of all the clutter and let you see yourself and your family in focus again</string>
+    <string name="family_karma_the_sun">Notice the love from friends and family you\'ve been missing in plain sight. That will be the key.</string>
+    <string name="family_karma_the_tower">Seek out psychological support of people you trust the most. Stand your ground. You\'ll get through these speedy, confusing and untrustworthy situations soon.</string>
+    <string name="family_karma_the_world">Look for some time to take it all in and be grateful for the blessings along the way no matter what the present is. Seek new ideas and plans.  Strong benevolent forces will protect you and your loved ones.</string>
+    <string name="family_karma_three_cups">Time is conductive for appreciating domestic life. Spend time at home. Appreciate small accomplishments and be ready for new beginnings. Make amends. Listen more and build close harmony with people around you.</string>
+    <string name="family_karma_three_pents">Blessings from family can help change your time, bring about new beginnings and pleasant surprises. </string>
+    <string name="family_karma_three_swords">Adverse situations are clouding in. This is the time to be more positive. It is the time to show the outside world your resilience. Don\'t be bogged down by the negativity.</string>
+    <string name="family_karma_three_wands">Your decisions matter a lot. Your choices matter a lot. Don\'t go blindly into areas that concern you. Look at things from more angles instead of turning a blind eye</string>
+    <string name="family_karma_two_cups">Good time to keep up with the family. So take some time out to stay in touch. Welcome if someone reaches out to you and call up the relatives you\'ve not been able to catch up with. There is power in company.</string>
+    <string name="family_karma_two_pents">In these turbulent times, be patient and stoic and keep the loved ones close.</string>
+    <string name="family_karma_two_swords">The inner and outer universe is not very favorable of conclusions and incline more towards opposing ideas and lack of resolve. Be prepared for delays and keep your eyes open to actions or decisions that may not turn out to be in your favor. Follow your instincts and try to keep your mind as free from conflict as possible.</string>
+    <string name="family_karma_two_wands"> Conflicting ideas and arguments may present themselves. The solution may not be very easily achieved as these things affect your inner desires and motivations. Be calm and put in peaceful considerations. Inner conflict and opposing thoughts may also manifest. Have a mindset to be on the solution side of things. This intent will help dissolve all conflicts.</string>
+    <string name="family_karma_wheel_of_fortune">Be open minded and stoic in this time of change. Big forces working towards the good. Leave the rapid change to itself and hope for the best. Practice letting go and being grateful.</string>
+
+
 
 
     <!-- TODO: Remove or change this placeholder text -->

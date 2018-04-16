@@ -20,7 +20,7 @@
         </activity>
         <activity
             android:name=".PickCardActivity"
-            android:label="@string/title_pick_card_activity"
+
             android:parentActivityName=".MainActivity"
             android:theme="@style/AppTheme.NoActionbar" />
     </application>

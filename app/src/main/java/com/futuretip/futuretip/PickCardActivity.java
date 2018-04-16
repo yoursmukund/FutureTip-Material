@@ -181,7 +181,7 @@ public class PickCardActivity extends AppCompatActivity{
         card.setClickable(false);
 
         //Showing the reading interpretation
-        setReadingText(0, readingType);
+        setReadingText(k, readingType);
 
     }
 
@@ -238,7 +238,7 @@ public class PickCardActivity extends AppCompatActivity{
                     editor.apply();
 
                     //Showing the reading interpretation
-                    setReadingText(0, readingType);
+                    setReadingText(k, readingType);
 
                 }
             });
@@ -246,7 +246,8 @@ public class PickCardActivity extends AppCompatActivity{
         }
 
     public void setReadingText(int cardIndex, String readingType){
-        text_card_interpretation_heading.setText("What it means for "+readingType);
+        System.out.println("reading type: "+ readingType+ " card name: "+photos[cardIndex]);
+        text_card_interpretation_heading.setText(R.string.destiny_text);
         text_card_interpretation.setText(
                 "Lorem ipsum dolor sit amet, " +
                 "consectetur adipiscing elit. " +
