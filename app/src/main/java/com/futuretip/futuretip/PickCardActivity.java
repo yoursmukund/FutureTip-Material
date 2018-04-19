@@ -245,16 +245,16 @@ public class PickCardActivity extends AppCompatActivity{
 
         }
 
+    //To get the name of the string resource from a variable
+    public static int getStringIdentifier(Context context, String name) {
+        return context.getResources().getIdentifier(name, "string", context.getPackageName());
+    }
+
     public void setReadingText(int cardIndex, String readingType){
-        System.out.println("reading type: "+ readingType+ " card name: "+photos[cardIndex]);
+        String card_name = getResources().getResourceEntryName(photos[cardIndex]);
+        String destiny_string = readingType+"_destiny_"+card_name;
         text_card_interpretation_heading.setText(R.string.destiny_text);
-        text_card_interpretation.setText(
-                "Lorem ipsum dolor sit amet, " +
-                "consectetur adipiscing elit. " +
-                "Proin dictum iaculis erat quis dapibus. " +
-                "Sed ultricies nunc maximus lobortis sagittis. " +
-                "Integer dapibus lacus lectus, " +
-                "in tincidunt libero tincidunt ac.");
+        text_card_interpretation.setText(getStringIdentifier(getApplicationContext(), destiny_string));
         card_interpretation_animation = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.anim_prediction_text_up);
         text_card_interpretation_heading.startAnimation(card_interpretation_animation);
         text_card_interpretation.startAnimation(card_interpretation_animation);
