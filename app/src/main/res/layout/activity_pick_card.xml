@@ -85,10 +85,11 @@
                 android:text=""
                 android:textAlignment="center"
                 android:textColor="@color/white"
-                android:textSize="25dp" />
+                android:textSize="25dp"
+                android:visibility="gone" />
 
             <TextView
-                android:id="@+id/text_card_interpretation_heading"
+                android:id="@+id/text_card_destiny_heading"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/toolbar_about"
@@ -100,10 +101,11 @@
                 android:text=""
                 android:textAlignment="center"
                 android:textColor="@color/white"
-                android:textSize="25dp" />
+                android:textSize="25dp"
+                android:visibility="gone" />
 
             <TextView
-                android:id="@+id/text_card_interpretation"
+                android:id="@+id/text_card_destiny"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/toolbar_about"
@@ -117,7 +119,7 @@
                 android:textSize="20dp" />
 
             <TextView
-                android:id="@+id/text_what_you_can_do"
+                android:id="@+id/text_card_karma_heading"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/toolbar_about"
@@ -129,10 +131,11 @@
                 android:text=""
                 android:textAlignment="center"
                 android:textColor="@color/white"
-                android:textSize="25dp" />
+                android:textSize="25dp"
+                android:visibility="gone" />
 
             <TextView
-                android:id="@+id/text_solution"
+                android:id="@+id/text_card_karma"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/toolbar_about"
@@ -143,7 +146,8 @@
                 android:text=""
                 android:textAlignment="center"
                 android:textColor="@color/white"
-                android:textSize="20dp" />
+                android:textSize="20dp"
+                android:visibility="gone" />
 
 
         </LinearLayout>

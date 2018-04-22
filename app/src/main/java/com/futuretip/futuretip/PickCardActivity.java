@@ -28,6 +28,8 @@ import com.google.android.gms.ads.MobileAds;
 import com.google.android.gms.ads.InterstitialAd;
 import com.google.android.gms.ads.formats.NativeAd;
 
+import org.w3c.dom.Text;
+
 import java.util.Calendar;
 import java.util.Date;
 import java.util.Random;
@@ -41,8 +43,11 @@ public class PickCardActivity extends AppCompatActivity{
     private int savedHeight;
     private ViewGroup viewRoot;
     private TextView thinkDeeply;
-    private TextView text_card_interpretation;
-    private TextView text_card_interpretation_heading;
+    private TextView text_card_destiny;
+    private TextView text_card_karma;
+    private TextView text_card_destiny_heading;
+    private TextView text_card_karma_heading;
+    private TextView text_card_name;
     private Animation thinkDeeply_animation;
     private Animation card_interpretation_animation;
     private int[] photos;
@@ -85,8 +90,11 @@ public class PickCardActivity extends AppCompatActivity{
         card = (ImageView) findViewById(R.id.img_card);
         viewRoot = (ViewGroup) findViewById(R.id.activity_pick_card_root);
         thinkDeeply = (TextView)findViewById(R.id.text_think_deeply);
-        text_card_interpretation = (TextView)findViewById(R.id.text_card_interpretation);
-        text_card_interpretation_heading = (TextView)findViewById(R.id.text_card_interpretation_heading);
+        text_card_destiny = (TextView)findViewById(R.id.text_card_destiny);
+        text_card_destiny_heading = (TextView)findViewById(R.id.text_card_destiny_heading);
+        text_card_karma = (TextView)findViewById(R.id.text_card_karma);
+        text_card_karma_heading = (TextView)findViewById(R.id.text_card_karma_heading);
+        text_card_name = (TextView)findViewById(R.id.text_card_name);
 
         photos = new int []{R.drawable.death, R.drawable.eight_cups, R.drawable.eight_pents,
                 R.drawable.eight_swords, R.drawable.eight_wands, R.drawable.five_cups,
@@ -137,7 +145,7 @@ public class PickCardActivity extends AppCompatActivity{
         if (timeLeftTillMidnight>0 && hasPicked.equalsIgnoreCase(readingType)){
 
             //Show picked card
-            Toast.makeText(getApplicationContext(), "Please come back tomorrow for a new reading", Toast.LENGTH_LONG).show();
+            Toast.makeText(getApplicationContext(), "We reset the readings every midnight", Toast.LENGTH_LONG).show();
             initViewWithCardPicked();
 
             //Disable it and start a new CountdownTimer; this is needed in order for
@@ -250,14 +258,46 @@ public class PickCardActivity extends AppCompatActivity{
         return context.getResources().getIdentifier(name, "string", context.getPackageName());
     }
 
+    public String toFirstCharUpperAll(String string){
+        string = string.replaceAll("_", " ");
+        StringBuffer sb=new StringBuffer(string);
+        for(int i=0;i<sb.length();i++)
+            if(i==0 || sb.charAt(i-1)==' ')//first letter to uppercase by default
+                sb.setCharAt(i, Character.toUpperCase(sb.charAt(i)));
+        return sb.toString();
+    }
+
+    //Sets interpretation text
     public void setReadingText(int cardIndex, String readingType){
-        String card_name = getResources().getResourceEntryName(photos[cardIndex]);
-        String destiny_string = readingType+"_destiny_"+card_name;
-        text_card_interpretation_heading.setText(R.string.destiny_text);
-        text_card_interpretation.setText(getStringIdentifier(getApplicationContext(), destiny_string));
+
+        //Animations
         card_interpretation_animation = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.anim_prediction_text_up);
-        text_card_interpretation_heading.startAnimation(card_interpretation_animation);
-        text_card_interpretation.startAnimation(card_interpretation_animation);
+
+        //Set card name text
+        String card_name = getResources().getResourceEntryName(photos[cardIndex]);
+        text_card_name.setText(toFirstCharUpperAll(card_name));
+        text_card_name.startAnimation(card_interpretation_animation);
+
+        //Making text views visible
+        text_card_name.setVisibility(View.VISIBLE);
+        text_card_karma.setVisibility(View.VISIBLE);
+        text_card_destiny.setVisibility(View.VISIBLE);
+        text_card_destiny_heading.setVisibility(View.VISIBLE);
+        text_card_karma_heading.setVisibility(View.VISIBLE);
+
+        //Set destiny text
+        String destiny_string = readingType+"_destiny_"+card_name;
+        text_card_destiny_heading.setText(R.string.destiny_text);
+        text_card_destiny.setText(getStringIdentifier(getApplicationContext(), destiny_string));
+        text_card_destiny_heading.startAnimation(card_interpretation_animation);
+        text_card_destiny.startAnimation(card_interpretation_animation);
+
+        //Set karma text
+        String karma_string = readingType+"_karma_"+card_name;
+        text_card_karma_heading.setText(R.string.karma_text);
+        text_card_karma.setText(getStringIdentifier(getApplicationContext(), karma_string));
+        text_card_karma_heading.startAnimation(card_interpretation_animation);
+        text_card_karma.startAnimation(card_interpretation_animation);
     }
 
     @Override

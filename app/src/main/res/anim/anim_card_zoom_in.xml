@@ -5,7 +5,7 @@
     android:toYScale="1.5dp"
     android:pivotX="30%"
     android:pivotY="30%"
-    android:duration="1500"
+    android:duration="1000"
     android:repeatCount="infinite"
     android:fillAfter="true">
 </scale>
