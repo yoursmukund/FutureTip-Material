@@ -72,10 +72,10 @@ public class PickCardActivity extends AppCompatActivity{
         readingType = intent.getStringExtra("readingType");
 
         //Load banner ad
-        MobileAds.initialize(this, "ca-app-pub-3404907343922680~3002468520");
+        MobileAds.initialize(this, "ca-app-pub-3940256099942544/6300978111");
         mAdView = findViewById(R.id.adView);
         AdRequest request = new AdRequest.Builder()
-                .addTestDevice("58FF272077DF1D58C04A7CD224819BE9")
+                .addTestDevice("030F43671FBF23EE4588A4CCD5F8A7DA")
                 .build();
         mAdView.loadAd(request);
 

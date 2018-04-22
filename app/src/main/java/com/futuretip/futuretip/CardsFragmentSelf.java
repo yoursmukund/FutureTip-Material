@@ -72,19 +72,20 @@ public class CardsFragmentSelf extends Fragment implements View.OnClickListener,
 
             case R.id.card_main_1:
                 intent.putExtra("readingType", "career");
-                startActivity(intent, ActivityOptions.makeSceneTransitionAnimation(getActivity()).toBundle());
+                startActivity(intent);
+//                , ActivityOptions.makeSceneTransitionAnimation(getActivity()).toBundle()
                 break;
             case R.id.card_main_2:
                 intent.putExtra("readingType", "love");
-                startActivity(intent, ActivityOptions.makeSceneTransitionAnimation(getActivity()).toBundle());
+                startActivity(intent);
                 break;
             case R.id.card_main_3:
                 intent.putExtra("readingType", "health");
-                startActivity(intent, ActivityOptions.makeSceneTransitionAnimation(getActivity()).toBundle());
+                startActivity(intent);
                 break;
             case R.id.card_main_4:
                 intent.putExtra("readingType", "family");
-                startActivity(intent, ActivityOptions.makeSceneTransitionAnimation(getActivity()).toBundle());
+                startActivity(intent);
                 break;
         }
     }
