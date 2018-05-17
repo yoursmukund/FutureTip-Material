@@ -98,9 +98,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
         if (requestCode == RC_SIGN_IN && resultCode == RESULT_OK) {
-            Toast.makeText(getApplicationContext(), "The user is signed in", Toast.LENGTH_LONG).show();
+            Toast.makeText(getApplicationContext(), "You are signed in", Toast.LENGTH_LONG).show();
         } else if (requestCode == RC_SIGN_IN && resultCode == RESULT_CANCELED) {
-            Toast.makeText(getApplicationContext(), "The user is not signed in", Toast.LENGTH_LONG).show();
+            Toast.makeText(getApplicationContext(), "You're not signed in", Toast.LENGTH_LONG).show();
             finish();
         }
     }

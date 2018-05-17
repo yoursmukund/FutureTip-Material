@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">FutureTip</string>
     <string name="app_designed_by">Designed by Mukund</string>
-    <string name="tab_title_main_1">Self Inspiration</string>
+    <string name="tab_title_main_1">Self Help</string>
     <string name="tab_title_main_2">Expert Corner</string>
     <string name="focus_on_question">Relax, focus and pick the card below</string>
     <string name="come_back_tomorrow">Please come back tomorrow for a new reading</string>
@@ -706,7 +706,25 @@
     <string name="family_karma_two_wands"> Conflicting ideas and arguments may present themselves. The solution may not be very easily achieved as these things affect your inner desires and motivations. Be calm and put in peaceful considerations. Inner conflict and opposing thoughts may also manifest. Have a mindset to be on the solution side of things. This intent will help dissolve all conflicts.</string>
     <string name="family_karma_wheel_of_fortune">Be open minded and stoic in this time of change. Big forces working towards the good. Leave the rapid change to itself and hope for the best. Practice letting go and being grateful.</string>
 
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
 
+    <string name="slide_1_title">Get inspired!</string>
+    <string name="slide_1_desc">Daily insights to help guide you to get the best out of your day</string>
+
+    <string name="slide_2_title">Daily destiny</string>
+    <string name="slide_2_desc">Get the gist of your surroundings and powers that help or hurt you</string>
+
+    <string name="slide_3_title">Daily karma</string>
+    <string name="slide_3_desc">Know what you can do to get on the right path</string>
+
+    <string name="slide_4_title">Get expert advice</string>
+    <string name="slide_4_desc">Get weekly, monthly and yearly view of your life</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
 
 
     <!-- TODO: Remove or change this placeholder text -->
