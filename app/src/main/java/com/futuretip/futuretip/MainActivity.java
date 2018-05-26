@@ -1,5 +1,6 @@
 package com.futuretip.futuretip;
 
+import android.content.Context;
 import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.design.widget.TabLayout;
@@ -7,7 +8,10 @@ import android.support.v4.app.Fragment;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
 import android.transition.Fade;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.widget.Toast;
 
 import com.firebase.ui.auth.AuthUI;
@@ -20,6 +24,9 @@ import com.google.firebase.database.FirebaseDatabase;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+
+import uk.co.chrisjenx.calligraphy.CalligraphyConfig;
+import uk.co.chrisjenx.calligraphy.CalligraphyContextWrapper;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -37,9 +44,17 @@ public class MainActivity extends AppCompatActivity {
 
 
     @Override
+    protected void attachBaseContext(Context newBase) {
+        super.attachBaseContext(CalligraphyContextWrapper.wrap(newBase));
+    }
+
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
 
         setupWindowAnimations();
         initViewPager();
@@ -51,6 +66,13 @@ public class MainActivity extends AppCompatActivity {
 
         username = ANONYMOUS;
 
+        //Initializing font
+        CalligraphyConfig.initDefault(new CalligraphyConfig.Builder()
+                .setDefaultFontPath("fonts/proximanova.ttf")
+                .setFontAttrId(R.attr.fontPath)
+                .build()
+        );
+
         //Listening to auth events
         authStateListener = new FirebaseAuth.AuthStateListener() {
             @Override
@@ -59,7 +81,7 @@ public class MainActivity extends AppCompatActivity {
                 if (currentUser != null) {
                     onSignedInInitialize(currentUser);
 
-                //Sign up flow
+//                Sign up flow
                 } else {
                     removeAllListeners();
                     startActivityForResult(AuthUI.getInstance()
@@ -102,6 +124,28 @@ public class MainActivity extends AppCompatActivity {
         } else if (requestCode == RC_SIGN_IN && resultCode == RESULT_CANCELED) {
             Toast.makeText(getApplicationContext(), "You're not signed in", Toast.LENGTH_LONG).show();
             finish();
+        }
+    }
+
+    //Adding logout button
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.menu_main, menu);
+        return true;
+    }
+
+
+    //Handling logout click
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        // Handle item selection
+        switch (item.getItemId()) {
+            case R.id.action_logout:
+                AuthUI.getInstance().signOut(this);
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
         }
     }
 
