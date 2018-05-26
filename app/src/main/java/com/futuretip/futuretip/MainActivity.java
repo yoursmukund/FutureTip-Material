@@ -42,12 +42,10 @@ public class MainActivity extends AppCompatActivity {
     ChildEventListener childEventListener;
     FirebaseUser currentUser;
 
-
     @Override
     protected void attachBaseContext(Context newBase) {
         super.attachBaseContext(CalligraphyContextWrapper.wrap(newBase));
     }
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -66,12 +64,7 @@ public class MainActivity extends AppCompatActivity {
 
         username = ANONYMOUS;
 
-        //Initializing font
-        CalligraphyConfig.initDefault(new CalligraphyConfig.Builder()
-                .setDefaultFontPath("fonts/proximanova.ttf")
-                .setFontAttrId(R.attr.fontPath)
-                .build()
-        );
+
 
         //Listening to auth events
         authStateListener = new FirebaseAuth.AuthStateListener() {

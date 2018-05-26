@@ -36,6 +36,9 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.Random;
 
+import uk.co.chrisjenx.calligraphy.CalligraphyConfig;
+import uk.co.chrisjenx.calligraphy.CalligraphyContextWrapper;
+
 public class PickCardActivity extends AppCompatActivity{
 
     private ImageView card;
@@ -57,12 +60,17 @@ public class PickCardActivity extends AppCompatActivity{
     private InterstitialAd mInterstitialAd;
     private String readingType;
 
+    @Override
+    protected void attachBaseContext(Context newBase) {
+        super.attachBaseContext(CalligraphyContextWrapper.wrap(newBase));
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pick_card);
         setupWindowAnimations();
+
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar_about);
         setSupportActionBar(toolbar);
         if (getSupportActionBar() != null) {
@@ -72,6 +80,8 @@ public class PickCardActivity extends AppCompatActivity{
         //Check reading type
         Intent intent = getIntent();
         readingType = intent.getStringExtra("readingType");
+        String toolbar_title = readingType+"_toolbar_heading";
+        getSupportActionBar().setTitle(getStringIdentifier(getApplicationContext(), toolbar_title));
 
         //Load banner ad
         MobileAds.initialize(this, "ca-app-pub-3940256099942544/6300978111");

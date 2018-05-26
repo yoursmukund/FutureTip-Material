@@ -46,7 +46,7 @@
             android:layout_marginStart="@dimen/card_subtitle_margin"
             android:layout_marginEnd="@dimen/card_subtitle_margin"
             android:layout_marginTop="@dimen/card_button_margin"
-            android:text="@string/main_card_details"
+            android:text="@string/love_card_details"
             android:textColor="@color/sharp_yellow" />
 
         <ImageView

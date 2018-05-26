@@ -9,10 +9,13 @@
     <string name="career_card_title">Career Reading</string>
     <string name="health_card_title">Health Reading</string>
     <string name="family_card_title">Family Reading</string>
-    <string name="main_card_subtitle">Subtitle here</string>
+    <string name="main_card_subtitle"></string>
     <string name="main_card_button_1">ACTION 1</string>
     <string name="main_card_button_2">ACTION 2</string>
-    <string name="main_card_details">Details here</string>
+    <string name="love_card_details">Daily insights into your relationship with your loved ones</string>
+    <string name="career_card_details">Find where destiny is taking you and what you should do to be in line with the universe\'s plan</string>
+    <string name="family_card_details">Know the situations surrounding your family with this daily insightful reading</string>
+    <string name="health_card_details">Understand your mental and physical well being better</string>
     <string name="destiny_text">Destiny - Forces around you</string>
     <string name="karma_text">Karma - What you can do</string>
 
@@ -725,6 +728,10 @@
 
     <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
     <string name="play_again">Play Again</string>
+    <string name="health_toolbar_heading">Health Reading</string>
+    <string name="love_toolbar_heading">Love Reading</string>
+    <string name="family_toolbar_heading">Family Reading</string>
+    <string name="career_toolbar_heading">Career Reading</string>
 
 
     <!-- TODO: Remove or change this placeholder text -->
