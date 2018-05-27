@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">FutureTip</string>
     <string name="app_designed_by">Designed by Mukund</string>
-    <string name="tab_title_main_1">Self Help</string>
+    <string name="tab_title_main_1">Daily Self Help</string>
     <string name="tab_title_main_2">Expert Corner</string>
     <string name="focus_on_question">Relax, focus and pick the card below</string>
     <string name="come_back_tomorrow">Please come back tomorrow for a new reading</string>
@@ -12,10 +12,10 @@
     <string name="main_card_subtitle"></string>
     <string name="main_card_button_1">ACTION 1</string>
     <string name="main_card_button_2">ACTION 2</string>
-    <string name="love_card_details">Daily insights into your relationship with your loved ones</string>
-    <string name="career_card_details">Find where destiny is taking you and what you should do to be in line with the universe\'s plan</string>
-    <string name="family_card_details">Know the situations surrounding your family with this daily insightful reading</string>
-    <string name="health_card_details">Understand your mental and physical well being better</string>
+    <string name="love_card_details">Find your path with your loved ones</string>
+    <string name="career_card_details">Know your career choices better</string>
+    <string name="family_card_details">Insights into family well being</string>
+    <string name="health_card_details">Align your mental and physical self</string>
     <string name="destiny_text">Destiny - Forces around you</string>
     <string name="karma_text">Karma - What you can do</string>
 

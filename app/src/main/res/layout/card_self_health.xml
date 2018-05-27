@@ -33,22 +33,22 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/tv_card_main_3_title"
-            android:layout_marginStart="@dimen/card_subtitle_margin"
-            android:layout_marginEnd="@dimen/card_subtitle_margin"
-            android:layout_marginTop="@dimen/card_button_margin"
-            android:textColor="@color/white"
-            android:text="@string/main_card_subtitle" />
+            android:text="@string/main_card_subtitle"
+            android:textColor="@color/white" />
 
         <TextView
             android:id="@+id/tv_card_main_3_details"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/tv_card_main_3_subtitle"
             android:layout_marginStart="@dimen/card_subtitle_margin"
             android:layout_marginTop="@dimen/card_button_margin"
+            android:layout_toStartOf="@+id/img_card_main_3"
+            android:paddingBottom="@dimen/card_desc_padding"
+            android:paddingEnd="@dimen/card_desc_padding"
+            android:paddingRight="@dimen/card_desc_padding"
             android:text="@string/health_card_details"
-            android:textColor="@color/white"
-            android:layout_toStartOf="@+id/img_card_main_3" />
+            android:textColor="@color/white" />
 
         <ImageView
             android:id="@+id/img_card_main_3"
