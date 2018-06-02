@@ -1,7 +1,6 @@
 package com.futuretip.futuretip;
 
 import android.animation.ObjectAnimator;
-import android.app.ActivityOptions;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -41,10 +40,10 @@ public class CardsFragmentSelf extends Fragment implements View.OnClickListener,
         card_main_3 = (CardView) nestedScrollView.findViewById(R.id.card_main_3);
         card_main_4 = (CardView) nestedScrollView.findViewById(R.id.card_main_4);
 
-        Glide.with(getContext()).load(R.drawable.career).fitCenter().into(img_card_main_1);
-        Glide.with(getContext()).load(R.drawable.love).fitCenter().into(img_card_main_2);
-        Glide.with(getContext()).load(R.drawable.health).fitCenter().into(img_card_main_3);
-        Glide.with(getContext()).load(R.drawable.family).fitCenter().into(img_card_main_4);
+        Glide.with(getContext()).load(R.drawable.career_logo).fitCenter().into(img_card_main_1);
+        Glide.with(getContext()).load(R.drawable.love_logo).fitCenter().into(img_card_main_2);
+        Glide.with(getContext()).load(R.drawable.health_logo).fitCenter().into(img_card_main_3);
+        Glide.with(getContext()).load(R.drawable.family_logo).fitCenter().into(img_card_main_4);
 
         return nestedScrollView;
     }

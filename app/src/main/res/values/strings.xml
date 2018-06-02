@@ -9,6 +9,10 @@
     <string name="career_card_title">Career Reading</string>
     <string name="health_card_title">Health Reading</string>
     <string name="family_card_title">Family Reading</string>
+    <string name="week_card_title">Week Reading</string>
+    <string name="month_card_title">Month Reading</string>
+    <string name="half_year_card_title">Half year Reading</string>
+    <string name="year_card_title">Year Reading</string>
     <string name="main_card_subtitle"></string>
     <string name="main_card_button_1">ACTION 1</string>
     <string name="main_card_button_2">ACTION 2</string>
@@ -16,6 +20,10 @@
     <string name="career_card_details">Know your career choices better</string>
     <string name="family_card_details">Insights into family well being</string>
     <string name="health_card_details">Align your mental and physical self</string>
+    <string name="week_card_details">Let an expert interpret your week.</string>
+    <string name="year_card_details">Let an expert interpret your year.</string>
+    <string name="half_year_card_details">Let an expert interpret your next 6 months.</string>
+    <string name="month_card_details">Let an expert interpret your month.</string>
     <string name="destiny_text">Destiny - Forces around you</string>
     <string name="karma_text">Karma - What you can do</string>
 

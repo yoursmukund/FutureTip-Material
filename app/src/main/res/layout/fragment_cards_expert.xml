@@ -11,7 +11,7 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <include layout="@layout/card_expert_day" />
+        <include layout="@layout/card_expert_half_year" />
 
         <include layout="@layout/card_expert_week" />
 
