@@ -17,6 +17,9 @@ import android.view.animation.DecelerateInterpolator;
 import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
 
 
 public class CardsFragmentExpert extends Fragment implements View.OnClickListener, View.OnTouchListener {
@@ -29,6 +32,7 @@ public class CardsFragmentExpert extends Fragment implements View.OnClickListene
     private CardView card_expert_week;
     private CardView card_expert_month;
     private CardView card_expert_year;
+    private AdView mAdView;
 
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         NestedScrollView nestedScrollView = (NestedScrollView) inflater.inflate(R.layout.fragment_cards_expert, container, false);
@@ -46,6 +50,14 @@ public class CardsFragmentExpert extends Fragment implements View.OnClickListene
         Glide.with(getContext()).load(R.drawable.expert_logo_2).fitCenter().into(img_card_main_2);
         Glide.with(getContext()).load(R.drawable.expert_logo_3).fitCenter().into(img_card_main_3);
         Glide.with(getContext()).load(R.drawable.expert_logo_4).fitCenter().into(img_card_main_4);
+
+        //Load banner ad
+        MobileAds.initialize(getContext(), "ca-app-pub-3940256099942544/6300978111");
+        mAdView = nestedScrollView.findViewById(R.id.self_ad);
+        AdRequest request = new AdRequest.Builder()
+                .addTestDevice("030F43671FBF23EE4588A4CCD5F8A7DA")
+                .build();
+        mAdView.loadAd(request);
 
         return nestedScrollView;
     }

@@ -19,5 +19,7 @@
 
         <include layout="@layout/card_self_family" />
 
+        <include layout="@layout/self_ad_view"/>
+
     </LinearLayout>
 </android.support.v4.widget.NestedScrollView>

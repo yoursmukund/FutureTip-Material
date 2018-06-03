@@ -19,5 +19,7 @@
 
         <include layout="@layout/card_expert_year" />
 
+        <include layout="@layout/expert_ad_view"/>
+
     </LinearLayout>
 </android.support.v4.widget.NestedScrollView>

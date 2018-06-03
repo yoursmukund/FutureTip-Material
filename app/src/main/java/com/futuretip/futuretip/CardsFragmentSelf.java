@@ -15,6 +15,9 @@ import android.view.animation.AccelerateInterpolator;
 import android.view.animation.DecelerateInterpolator;
 import android.widget.ImageView;
 import com.bumptech.glide.Glide;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
 
 
 public class CardsFragmentSelf extends Fragment implements View.OnClickListener, View.OnTouchListener {
@@ -27,6 +30,7 @@ public class CardsFragmentSelf extends Fragment implements View.OnClickListener,
     private CardView card_main_2;
     private CardView card_main_3;
     private CardView card_main_4;
+    private AdView mAdView;
 
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         NestedScrollView nestedScrollView = (NestedScrollView) inflater.inflate(R.layout.fragment_cards_self, container, false);
@@ -44,6 +48,14 @@ public class CardsFragmentSelf extends Fragment implements View.OnClickListener,
         Glide.with(getContext()).load(R.drawable.love_logo).fitCenter().into(img_card_main_2);
         Glide.with(getContext()).load(R.drawable.health_logo).fitCenter().into(img_card_main_3);
         Glide.with(getContext()).load(R.drawable.family_logo).fitCenter().into(img_card_main_4);
+
+        //Load banner ad
+        MobileAds.initialize(getContext(), "ca-app-pub-3940256099942544/6300978111");
+        mAdView = nestedScrollView.findViewById(R.id.self_ad);
+        AdRequest request = new AdRequest.Builder()
+                .addTestDevice("030F43671FBF23EE4588A4CCD5F8A7DA")
+                .build();
+        mAdView.loadAd(request);
 
         return nestedScrollView;
     }
