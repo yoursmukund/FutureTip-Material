@@ -43,4 +43,9 @@
         <item name="android:textAllCaps">false</item>
     </style>
 
+    <style name="TextAppearance.FontPath" parent="android:TextAppearance">
+        <!-- Custom Attr-->
+        <item name="fontPath">fonts/proximanova_semibold.ttf</item>
+    </style>
+
 </resources>

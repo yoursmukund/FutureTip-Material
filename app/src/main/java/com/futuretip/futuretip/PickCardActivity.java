@@ -157,7 +157,7 @@ public class PickCardActivity extends AppCompatActivity{
         if (timeLeftTillMidnight>0 && hasPicked.equalsIgnoreCase(readingType)){
 
             //Show picked card
-            Toast.makeText(getApplicationContext(), "We reset the readings every midnight", Toast.LENGTH_LONG).show();
+//            Toast.makeText(getApplicationContext(), "We reset the readings every midnight", Toast.LENGTH_LONG).show();
             initViewWithCardPicked();
 
             //Disable it and start a new CountdownTimer; this is needed in order for

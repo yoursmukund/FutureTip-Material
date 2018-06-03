@@ -46,9 +46,7 @@
             android:layout_marginStart="@dimen/card_subtitle_margin"
             android:layout_marginTop="@dimen/card_button_margin"
             android:layout_toStartOf="@+id/img_card_main_1"
-            android:paddingBottom="@dimen/card_desc_padding"
             android:paddingEnd="@dimen/card_desc_padding"
-            android:paddingLeft="@dimen/card_desc_padding"
             android:text="@string/career_card_details"
             android:textColor="@color/white" />
 

@@ -59,7 +59,7 @@
                 android:text="@string/focus_on_question"
                 android:textAlignment="center"
                 android:textColor="@color/white"
-                android:textSize="25dp" />
+                android:textSize="18dp" />
 
             <ImageView
                 android:id="@+id/img_card"
@@ -86,8 +86,10 @@
                 android:padding="20dp"
                 android:text=""
                 android:textAlignment="center"
-                android:textColor="@color/white"
-                android:textSize="25dp"
+                android:textAllCaps="true"
+                android:textAppearance="@style/TextAppearance.FontPath"
+                android:textColor="@color/sharp_yellow"
+                android:textSize="18dp"
                 android:visibility="gone" />
 
             <TextView
@@ -102,8 +104,9 @@
                 android:padding="20dp"
                 android:text=""
                 android:textAlignment="center"
-                android:textColor="@color/white"
-                android:textSize="25dp"
+                android:textAppearance="@style/TextAppearance.FontPath"
+                android:textColor="@color/neon_blue"
+                android:textSize="20dp"
                 android:visibility="gone" />
 
             <TextView
@@ -118,7 +121,7 @@
                 android:text=""
                 android:textAlignment="center"
                 android:textColor="@color/white"
-                android:textSize="20dp" />
+                android:textSize="16dp" />
 
             <TextView
                 android:id="@+id/text_card_karma_heading"
@@ -132,8 +135,9 @@
                 android:padding="20dp"
                 android:text=""
                 android:textAlignment="center"
-                android:textColor="@color/white"
-                android:textSize="25dp"
+                android:textAppearance="@style/TextAppearance.FontPath"
+                android:textColor="@color/neon_blue"
+                android:textSize="20dp"
                 android:visibility="gone" />
 
             <TextView
@@ -148,7 +152,7 @@
                 android:text=""
                 android:textAlignment="center"
                 android:textColor="@color/white"
-                android:textSize="20dp"
+                android:textSize="16dp"
                 android:visibility="gone" />
 
 
