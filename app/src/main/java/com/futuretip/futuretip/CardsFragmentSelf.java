@@ -84,7 +84,6 @@ public class CardsFragmentSelf extends Fragment implements View.OnClickListener,
             case R.id.card_main_1:
                 intent.putExtra("readingType", "career");
                 startActivity(intent);
-//                , ActivityOptions.makeSceneTransitionAnimation(getActivity()).toBundle()
                 break;
             case R.id.card_main_2:
                 intent.putExtra("readingType", "love");
@@ -105,7 +104,7 @@ public class CardsFragmentSelf extends Fragment implements View.OnClickListener,
     public boolean onTouch(View view, MotionEvent motionEvent) {
         switch (motionEvent.getAction()) {
             case MotionEvent.ACTION_DOWN:
-                ObjectAnimator upAnim = ObjectAnimator.ofFloat(view, "translationZ", 16);
+                ObjectAnimator upAnim = ObjectAnimator.ofFloat(view, "translationZ", 30);
                 upAnim.setDuration(150);
                 upAnim.setInterpolator(new DecelerateInterpolator());
                 upAnim.start();

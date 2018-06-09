@@ -1,7 +1,6 @@
 package com.futuretip.futuretip;
 
 import android.animation.ObjectAnimator;
-import android.app.ActivityOptions;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -36,6 +35,7 @@ public class CardsFragmentExpert extends Fragment implements View.OnClickListene
 
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         NestedScrollView nestedScrollView = (NestedScrollView) inflater.inflate(R.layout.fragment_cards_expert, container, false);
+
 
         img_card_main_1 = (ImageView) nestedScrollView.findViewById(R.id.img_card_main_1);
         img_card_main_2 = (ImageView) nestedScrollView.findViewById(R.id.img_card_main_2);
@@ -85,19 +85,19 @@ public class CardsFragmentExpert extends Fragment implements View.OnClickListene
 
             case R.id.card_expert_half_year:
                 intent.putExtra("readingType", "career");
-                startActivity(intent, ActivityOptions.makeSceneTransitionAnimation(getActivity()).toBundle());
+                startActivity(intent);
                 break;
             case R.id.card_expert_week:
                 intent.putExtra("readingType", "love");
-                startActivity(intent, ActivityOptions.makeSceneTransitionAnimation(getActivity()).toBundle());
+                startActivity(intent);
                 break;
             case R.id.card_expert_month:
                 intent.putExtra("readingType", "health");
-                startActivity(intent, ActivityOptions.makeSceneTransitionAnimation(getActivity()).toBundle());
+                startActivity(intent);
                 break;
             case R.id.card_expert_year:
                 intent.putExtra("readingType", "family");
-                startActivity(intent, ActivityOptions.makeSceneTransitionAnimation(getActivity()).toBundle());
+                startActivity(intent);
                 break;
         }
     }

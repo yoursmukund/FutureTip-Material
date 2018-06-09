@@ -30,6 +30,10 @@
             android:name=".PickCardActivity"
             android:parentActivityName=".MainActivity"
             android:theme="@style/AppTheme.NoActionbar" />
+        <!-- Enables the Google Pay API -->
+        <meta-data
+            android:name="com.google.android.gms.wallet.api.enabled"
+            android:value="true" />
     </application>
 
 </manifest>
